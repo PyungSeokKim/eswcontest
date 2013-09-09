@@ -1,0 +1,1293 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADC_1CH	include/car_lib.h	18;"	d
+ADC_2CH	include/car_lib.h	19;"	d
+ADC_3CH	include/car_lib.h	20;"	d
+ADC_4CH	include/car_lib.h	21;"	d
+APP_data	include/videodev2.h	/^	char APP_data[60];      \/* Data in the JPEG APPn segment. *\/$/;"	m	struct:v4l2_jpegcompression
+APP_len	include/videodev2.h	/^	int  APP_len;           \/* Length of data in JPEG APPn segment *\/$/;"	m	struct:v4l2_jpegcompression
+APPn	include/videodev2.h	/^	int  APPn;              \/* Number of APP segment to be written,$/;"	m	struct:v4l2_jpegcompression
+ASSERT	include/pxa_dbg.h	24;"	d
+ASSERT	include/pxa_dbg.h	31;"	d
+BASE_VIDIOC_PRIVATE	include/videodev2.h	1457;"	d
+BAUDRATE	include/car_lib.h	29;"	d
+BOT	include/cam_values.h	32;"	d
+CAMERA_IMAGE_FORMAT_RAW10	include/pxa_camera_zl.h	75;"	d
+CAMERA_IMAGE_FORMAT_RAW8	include/pxa_camera_zl.h	73;"	d
+CAMERA_IMAGE_FORMAT_RAW9	include/pxa_camera_zl.h	74;"	d
+CAMERA_IMAGE_FORMAT_RGB444	include/pxa_camera_zl.h	77;"	d
+CAMERA_IMAGE_FORMAT_RGB555	include/pxa_camera_zl.h	78;"	d
+CAMERA_IMAGE_FORMAT_RGB565	include/pxa_camera_zl.h	79;"	d
+CAMERA_IMAGE_FORMAT_RGB666_PACKED	include/pxa_camera_zl.h	80;"	d
+CAMERA_IMAGE_FORMAT_RGB666_PLANAR	include/pxa_camera_zl.h	81;"	d
+CAMERA_IMAGE_FORMAT_RGB888_PACKED	include/pxa_camera_zl.h	82;"	d
+CAMERA_IMAGE_FORMAT_RGB888_PLANAR	include/pxa_camera_zl.h	83;"	d
+CAMERA_IMAGE_FORMAT_RGBT555_0	include/pxa_camera_zl.h	84;"	d
+CAMERA_IMAGE_FORMAT_RGBT555_1	include/pxa_camera_zl.h	86;"	d
+CAMERA_IMAGE_FORMAT_RGBT888_0	include/pxa_camera_zl.h	85;"	d
+CAMERA_IMAGE_FORMAT_RGBT888_1	include/pxa_camera_zl.h	87;"	d
+CAMERA_IMAGE_FORMAT_YCBCR400	include/pxa_camera_zl.h	89;"	d
+CAMERA_IMAGE_FORMAT_YCBCR422_PACKED	include/pxa_camera_zl.h	90;"	d
+CAMERA_IMAGE_FORMAT_YCBCR422_PLANAR	include/pxa_camera_zl.h	91;"	d
+CAMERA_IMAGE_FORMAT_YCBCR444_PACKED	include/pxa_camera_zl.h	92;"	d
+CAMERA_IMAGE_FORMAT_YCBCR444_PLANAR	include/pxa_camera_zl.h	93;"	d
+CAM_MODE_STILL	include/pxa_lib.h	195;"	d
+CAM_MODE_VIDEO	include/pxa_lib.h	194;"	d
+CAM_STATUS_BUSY	driver/camera.c	118;"	d	file:
+CAM_STATUS_BUSY	include/cam_values.h	10;"	d
+CAM_STATUS_INIT	driver/camera.c	116;"	d	file:
+CAM_STATUS_INIT	include/cam_values.h	8;"	d
+CAM_STATUS_READY	driver/camera.c	117;"	d	file:
+CAM_STATUS_READY	include/cam_values.h	9;"	d
+CAPTURE_TYPE_STILL	include/pxa_camera_zl.h	114;"	d
+CB	include/cam_values.h	63;"	d
+CC	Makefile	/^CC=\/usr\/local\/arm-linux-4.1.1\/bin\/arm-linux-gcc -lpthread -lm$/;"	m
+CI_SSU_SCALE	include/pxa_camera_zl.h	/^} CI_SSU_SCALE;$/;"	t	typeref:enum:__anon2
+CI_SSU_SCALE_DISABLE	include/pxa_camera_zl.h	/^    CI_SSU_SCALE_DISABLE   = 0,    \/\/ disabled$/;"	e	enum:__anon2
+CI_SSU_SCALE_HALF	include/pxa_camera_zl.h	/^    CI_SSU_SCALE_HALF      = 1,    \/\/ 2:1$/;"	e	enum:__anon2
+CI_SSU_SCALE_QUARTER	include/pxa_camera_zl.h	/^    CI_SSU_SCALE_QUARTER   = 2     \/\/ 4:1$/;"	e	enum:__anon2
+CM_SPEED_MAX	include/miso_values.h	17;"	d
+CM_SPEED_MIN	include/miso_values.h	18;"	d
+CM_STRAIGHT	include/miso_values.h	41;"	d
+COL_PASS	include/cam_values.h	55;"	d
+COL_RED	include/cam_values.h	58;"	d
+COL_UNKNOWN	include/cam_values.h	54;"	d
+COL_WHITE	include/cam_values.h	57;"	d
+COL_YELLOW	include/cam_values.h	56;"	d
+COM_data	include/videodev2.h	/^	char COM_data[60];      \/* Data in JPEG COM segment *\/$/;"	m	struct:v4l2_jpegcompression
+COM_len	include/videodev2.h	/^	int  COM_len;           \/* Length of data in JPEG COM segment *\/$/;"	m	struct:v4l2_jpegcompression
+CR	include/cam_values.h	64;"	d
+CUTLINE	include/cam_values.h	14;"	d
+DBGMSG	include/pxa_dbg.h	25;"	d
+DBGMSG	include/pxa_dbg.h	30;"	d
+DF_CUR	include/miso_values.h	23;"	d
+DF_END	include/miso_values.h	26;"	d
+DF_PPARK	include/miso_values.h	25;"	d
+DF_STOP	include/miso_values.h	21;"	d
+DF_STR	include/miso_values.h	22;"	d
+DF_VPARK	include/miso_values.h	24;"	d
+DISTANCE_MAX	include/miso_values.h	13;"	d
+DISTANCE_MIN	include/miso_values.h	14;"	d
+DM_ANGLE_MAX	include/miso_values.h	15;"	d
+DM_ANGLE_MIN	include/miso_values.h	16;"	d
+DM_INTERVAL	include/miso_car_lib.h	9;"	d
+DM_STRAIGHT	include/miso_values.h	40;"	d
+DPRINTF	include/pxa_dbg.h	23;"	d
+DPRINTF	include/pxa_dbg.h	29;"	d
+DRIVE	main.c	4;"	d	file:
+DRIVE_DEBUG	main.c	2;"	d	file:
+EMERGENCY	include/car_lib.h	27;"	d
+END	include/cam_values.h	34;"	d
+ENTER	include/pxa_dbg.h	26;"	d
+ENTER	include/pxa_dbg.h	32;"	d
+ERRMSG	include/pxa_dbg.h	36;"	d
+FALSE	include/miso_values.h	8;"	d
+FL_FIND	include/cam_values.h	39;"	d
+FL_NONE	include/cam_values.h	38;"	d
+FL_PASS	include/cam_values.h	40;"	d
+FORMAT_PLANAR_420	driver/overlay2.c	37;"	d	file:
+FORMAT_PLANAR_422	driver/overlay2.c	36;"	d	file:
+GAP	include/cam_values.h	15;"	d
+HIGH	include/miso_car_lib.h	12;"	d
+HST_COLOR_BLUE	include/pxa_camera_zl.h	/^    HST_COLOR_BLUE,$/;"	e	enum:__anon1
+HST_COLOR_GREEN1	include/pxa_camera_zl.h	/^    HST_COLOR_GREEN1,$/;"	e	enum:__anon1
+HST_COLOR_GREEN2	include/pxa_camera_zl.h	/^    HST_COLOR_GREEN2$/;"	e	enum:__anon1
+HST_COLOR_RED	include/pxa_camera_zl.h	/^    HST_COLOR_RED,$/;"	e	enum:__anon1
+IF_CL_LEFT	include/miso_values.h	33;"	d
+IF_CL_RIGHT	include/miso_values.h	34;"	d
+IF_DRIVE	include/miso_values.h	32;"	d
+IF_NO_PROCESS	include/miso_values.h	29;"	d
+IF_SG_LEFT	include/miso_values.h	37;"	d
+IF_SG_RIGHT	include/miso_values.h	38;"	d
+IF_SG_STOP	include/miso_values.h	36;"	d
+IF_STOP	include/miso_values.h	31;"	d
+IS_BLACK	include/cam_values.h	68;"	d
+IS_RED	include/cam_values.h	69;"	d
+IS_TRAFFIC_GREEN	include/cam_values.h	73;"	d
+IS_TRAFFIC_RED	include/cam_values.h	71;"	d
+IS_TRAFFIC_YELLOW	include/cam_values.h	72;"	d
+IS_WHITE	include/cam_values.h	67;"	d
+IS_YELLOW	include/cam_values.h	66;"	d
+KEY1	include/key_handler.h	9;"	d
+KEY2	include/key_handler.h	10;"	d
+KEY3	include/key_handler.h	11;"	d
+LEAVE	include/pxa_dbg.h	27;"	d
+LEAVE	include/pxa_dbg.h	33;"	d
+LEFT	include/car_lib.h	25;"	d
+LOW	include/miso_car_lib.h	13;"	d
+LSPEED_MAX	include/miso_values.h	11;"	d
+LSPEED_MIN	include/miso_values.h	12;"	d
+MAX	include/gaussian_filter.h	4;"	d
+MAXHEIGHT	include/cam_values.h	49;"	d
+MAXWIDTH	include/cam_values.h	50;"	d
+MID	include/cam_values.h	33;"	d
+MIDWIDTH	include/cam_values.h	51;"	d
+MID_CL_LEFT	include/cam_values.h	45;"	d
+MID_CL_RIGHT	include/cam_values.h	46;"	d
+MID_DRIVE	include/cam_values.h	43;"	d
+MID_STOP	include/cam_values.h	44;"	d
+MIN	driver/overlay2.c	38;"	d	file:
+MODEDEVICE	include/car_lib.h	30;"	d
+NONE	include/miso_values.h	5;"	d
+OFF	include/car_lib.h	23;"	d
+ON	include/car_lib.h	24;"	d
+ON_STOP_LINE	include/sensor_handler.h	7;"	d
+OV2620_SENSOR	include/pxa_camera_zl.h	120;"	d
+OV2630_SENSOR	include/pxa_camera_zl.h	121;"	d
+OV7660_SENSOR	include/pxa_camera_zl.h	119;"	d
+PAGE_MASK	driver/camera.c	48;"	d	file:
+PAGE_SIZE	driver/camera.c	47;"	d	file:
+PI	include/cam_values.h	5;"	d
+PT_SIZE	include/cam_values.h	35;"	d
+RANGE_LEFT	include/miso_car_lib.h	19;"	d
+RANGE_NO_CHANGE	include/miso_car_lib.h	17;"	d
+RANGE_RIGHT	include/miso_car_lib.h	18;"	d
+RANGE_STRAIGHT	include/miso_car_lib.h	16;"	d
+RGB565_BPP	include/pxa_camera_zl.h	100;"	d
+RGB666_PACKED_BPP	include/pxa_camera_zl.h	102;"	d
+RGB666_UNPACKED_BPP	include/pxa_camera_zl.h	101;"	d
+RIGHT	include/car_lib.h	26;"	d
+SIGMA	include/gaussian_filter.h	3;"	d
+STATE_BUF_SIZE	include/state_manage.h	1;"	d
+STATE_FILE	include/state_manage.h	3;"	d
+STATE_TOKEN	include/state_manage.h	2;"	d
+STILLBUF_COUNT	driver/camera.c	114;"	d	file:
+STILLBUF_COUNT	include/cam_values.h	7;"	d
+STILL_IMAGE	include/pxa_camera_zl.h	107;"	d
+THRESHOLD	include/cam_values.h	18;"	d
+THRESHOLD_CB	include/cam_values.h	19;"	d
+THRESHOLD_GREEN_CB	include/cam_values.h	26;"	d
+THRESHOLD_GREEN_CR	include/cam_values.h	27;"	d
+THRESHOLD_RED_CB	include/cam_values.h	22;"	d
+THRESHOLD_RED_CR	include/cam_values.h	23;"	d
+THRESHOLD_RED_MIN_CB	include/cam_values.h	21;"	d
+THRESHOLD_STOP_CB	include/cam_values.h	29;"	d
+THRESHOLD_STOP_CR	include/cam_values.h	30;"	d
+THRESHOLD_YELLOW_CB	include/cam_values.h	24;"	d
+THRESHOLD_YELLOW_CR	include/cam_values.h	25;"	d
+TRACE	main.c	5;"	d	file:
+TRUE	include/miso_values.h	7;"	d
+V4L2_AUDCAP_AVL	include/videodev2.h	1181;"	d
+V4L2_AUDCAP_STEREO	include/videodev2.h	1180;"	d
+V4L2_AUDMODE_AVL	include/videodev2.h	1184;"	d
+V4L2_BITRATE_CBR	include/videodev2.h	/^	V4L2_BITRATE_CBR,	\/* constant bitrate *\/$/;"	e	enum:v4l2_bitrate_mode
+V4L2_BITRATE_NONE	include/videodev2.h	/^	V4L2_BITRATE_NONE = 0,	\/* not specified *\/$/;"	e	enum:v4l2_bitrate_mode
+V4L2_BITRATE_VBR	include/videodev2.h	/^	V4L2_BITRATE_VBR,	\/* variable bitrate *\/$/;"	e	enum:v4l2_bitrate_mode
+V4L2_BUF_FLAG_BFRAME	include/videodev2.h	578;"	d
+V4L2_BUF_FLAG_DONE	include/videodev2.h	575;"	d
+V4L2_BUF_FLAG_INPUT	include/videodev2.h	580;"	d
+V4L2_BUF_FLAG_KEYFRAME	include/videodev2.h	576;"	d
+V4L2_BUF_FLAG_MAPPED	include/videodev2.h	573;"	d
+V4L2_BUF_FLAG_PFRAME	include/videodev2.h	577;"	d
+V4L2_BUF_FLAG_QUEUED	include/videodev2.h	574;"	d
+V4L2_BUF_FLAG_TIMECODE	include/videodev2.h	579;"	d
+V4L2_BUF_TYPE_PRIVATE	include/videodev2.h	/^	V4L2_BUF_TYPE_PRIVATE            = 0x80,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_SLICED_VBI_CAPTURE	include/videodev2.h	/^	V4L2_BUF_TYPE_SLICED_VBI_CAPTURE = 6,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_SLICED_VBI_OUTPUT	include/videodev2.h	/^	V4L2_BUF_TYPE_SLICED_VBI_OUTPUT  = 7,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VBI_CAPTURE	include/videodev2.h	/^	V4L2_BUF_TYPE_VBI_CAPTURE        = 4,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VBI_OUTPUT	include/videodev2.h	/^	V4L2_BUF_TYPE_VBI_OUTPUT         = 5,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VIDEO_CAPTURE	include/videodev2.h	/^	V4L2_BUF_TYPE_VIDEO_CAPTURE      = 1,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VIDEO_OUTPUT	include/videodev2.h	/^	V4L2_BUF_TYPE_VIDEO_OUTPUT       = 2,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VIDEO_OVERLAY	include/videodev2.h	/^	V4L2_BUF_TYPE_VIDEO_OVERLAY      = 3,$/;"	e	enum:v4l2_buf_type
+V4L2_CAP_ASYNCIO	include/videodev2.h	236;"	d
+V4L2_CAP_AUDIO	include/videodev2.h	232;"	d
+V4L2_CAP_RADIO	include/videodev2.h	233;"	d
+V4L2_CAP_RDS_CAPTURE	include/videodev2.h	229;"	d
+V4L2_CAP_READWRITE	include/videodev2.h	235;"	d
+V4L2_CAP_SLICED_VBI_CAPTURE	include/videodev2.h	227;"	d
+V4L2_CAP_SLICED_VBI_OUTPUT	include/videodev2.h	228;"	d
+V4L2_CAP_STREAMING	include/videodev2.h	237;"	d
+V4L2_CAP_TIMEPERFRAME	include/videodev2.h	635;"	d
+V4L2_CAP_TUNER	include/videodev2.h	231;"	d
+V4L2_CAP_VBI_CAPTURE	include/videodev2.h	225;"	d
+V4L2_CAP_VBI_OUTPUT	include/videodev2.h	226;"	d
+V4L2_CAP_VIDEO_CAPTURE	include/videodev2.h	222;"	d
+V4L2_CAP_VIDEO_OUTPUT	include/videodev2.h	223;"	d
+V4L2_CAP_VIDEO_OVERLAY	include/videodev2.h	224;"	d
+V4L2_CHIP_MATCH_HOST	include/videodev2.h	1361;"	d
+V4L2_CHIP_MATCH_I2C_ADDR	include/videodev2.h	1363;"	d
+V4L2_CHIP_MATCH_I2C_DRIVER	include/videodev2.h	1362;"	d
+V4L2_CID_AUDIO_BALANCE	include/videodev2.h	904;"	d
+V4L2_CID_AUDIO_BASS	include/videodev2.h	905;"	d
+V4L2_CID_AUDIO_LOUDNESS	include/videodev2.h	908;"	d
+V4L2_CID_AUDIO_MUTE	include/videodev2.h	907;"	d
+V4L2_CID_AUDIO_TREBLE	include/videodev2.h	906;"	d
+V4L2_CID_AUDIO_VOLUME	include/videodev2.h	903;"	d
+V4L2_CID_AUTOGAIN	include/videodev2.h	917;"	d
+V4L2_CID_AUTO_WHITE_BALANCE	include/videodev2.h	910;"	d
+V4L2_CID_BASE	include/videodev2.h	893;"	d
+V4L2_CID_BLACK_LEVEL	include/videodev2.h	909;"	d
+V4L2_CID_BLUE_BALANCE	include/videodev2.h	913;"	d
+V4L2_CID_BRIGHTNESS	include/videodev2.h	899;"	d
+V4L2_CID_CONTRAST	include/videodev2.h	900;"	d
+V4L2_CID_DO_WHITE_BALANCE	include/videodev2.h	911;"	d
+V4L2_CID_EXPOSURE	include/videodev2.h	916;"	d
+V4L2_CID_GAIN	include/videodev2.h	918;"	d
+V4L2_CID_GAMMA	include/videodev2.h	914;"	d
+V4L2_CID_HCENTER	include/videodev2.h	921;"	d
+V4L2_CID_HFLIP	include/videodev2.h	919;"	d
+V4L2_CID_HUE	include/videodev2.h	902;"	d
+V4L2_CID_LASTP1	include/videodev2.h	923;"	d
+V4L2_CID_MPEG_AUDIO_CRC	include/videodev2.h	1035;"	d
+V4L2_CID_MPEG_AUDIO_EMPHASIS	include/videodev2.h	1029;"	d
+V4L2_CID_MPEG_AUDIO_ENCODING	include/videodev2.h	958;"	d
+V4L2_CID_MPEG_AUDIO_L1_BITRATE	include/videodev2.h	964;"	d
+V4L2_CID_MPEG_AUDIO_L2_BITRATE	include/videodev2.h	981;"	d
+V4L2_CID_MPEG_AUDIO_L3_BITRATE	include/videodev2.h	998;"	d
+V4L2_CID_MPEG_AUDIO_MODE	include/videodev2.h	1015;"	d
+V4L2_CID_MPEG_AUDIO_MODE_EXTENSION	include/videodev2.h	1022;"	d
+V4L2_CID_MPEG_AUDIO_SAMPLING_FREQ	include/videodev2.h	952;"	d
+V4L2_CID_MPEG_BASE	include/videodev2.h	926;"	d
+V4L2_CID_MPEG_CLASS	include/videodev2.h	927;"	d
+V4L2_CID_MPEG_CX2341X_BASE	include/videodev2.h	1068;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_CHROMA_MEDIAN_FILTER_BOTTOM	include/videodev2.h	1104;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_CHROMA_MEDIAN_FILTER_TOP	include/videodev2.h	1105;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_CHROMA_SPATIAL_FILTER_TYPE	include/videodev2.h	1083;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_LUMA_MEDIAN_FILTER_BOTTOM	include/videodev2.h	1102;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_LUMA_MEDIAN_FILTER_TOP	include/videodev2.h	1103;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE	include/videodev2.h	1075;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE	include/videodev2.h	1094;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_SPATIAL_FILTER	include/videodev2.h	1074;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_SPATIAL_FILTER_MODE	include/videodev2.h	1069;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER	include/videodev2.h	1093;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER_MODE	include/videodev2.h	1088;"	d
+V4L2_CID_MPEG_STREAM_PES_ID_AUDIO	include/videodev2.h	943;"	d
+V4L2_CID_MPEG_STREAM_PES_ID_VIDEO	include/videodev2.h	944;"	d
+V4L2_CID_MPEG_STREAM_PID_AUDIO	include/videodev2.h	940;"	d
+V4L2_CID_MPEG_STREAM_PID_PCR	include/videodev2.h	942;"	d
+V4L2_CID_MPEG_STREAM_PID_PMT	include/videodev2.h	939;"	d
+V4L2_CID_MPEG_STREAM_PID_VIDEO	include/videodev2.h	941;"	d
+V4L2_CID_MPEG_STREAM_TYPE	include/videodev2.h	930;"	d
+V4L2_CID_MPEG_STREAM_VBI_FMT	include/videodev2.h	945;"	d
+V4L2_CID_MPEG_VIDEO_ASPECT	include/videodev2.h	1047;"	d
+V4L2_CID_MPEG_VIDEO_BITRATE	include/videodev2.h	1063;"	d
+V4L2_CID_MPEG_VIDEO_BITRATE_MODE	include/videodev2.h	1058;"	d
+V4L2_CID_MPEG_VIDEO_BITRATE_PEAK	include/videodev2.h	1064;"	d
+V4L2_CID_MPEG_VIDEO_B_FRAMES	include/videodev2.h	1054;"	d
+V4L2_CID_MPEG_VIDEO_ENCODING	include/videodev2.h	1042;"	d
+V4L2_CID_MPEG_VIDEO_GOP_CLOSURE	include/videodev2.h	1056;"	d
+V4L2_CID_MPEG_VIDEO_GOP_SIZE	include/videodev2.h	1055;"	d
+V4L2_CID_MPEG_VIDEO_PULLDOWN	include/videodev2.h	1057;"	d
+V4L2_CID_MPEG_VIDEO_TEMPORAL_DECIMATION	include/videodev2.h	1065;"	d
+V4L2_CID_PRIVATE_BASE	include/videodev2.h	896;"	d
+V4L2_CID_RED_BALANCE	include/videodev2.h	912;"	d
+V4L2_CID_SATURATION	include/videodev2.h	901;"	d
+V4L2_CID_USER_BASE	include/videodev2.h	894;"	d
+V4L2_CID_USER_CLASS	include/videodev2.h	898;"	d
+V4L2_CID_VCENTER	include/videodev2.h	922;"	d
+V4L2_CID_VFLIP	include/videodev2.h	920;"	d
+V4L2_CID_WHITENESS	include/videodev2.h	915;"	d
+V4L2_COLORSPACE_470_SYSTEM_BG	include/videodev2.h	/^	V4L2_COLORSPACE_470_SYSTEM_BG = 6,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_470_SYSTEM_M	include/videodev2.h	/^	V4L2_COLORSPACE_470_SYSTEM_M  = 5,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_BT878	include/videodev2.h	/^	V4L2_COLORSPACE_BT878         = 4,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_JPEG	include/videodev2.h	/^	V4L2_COLORSPACE_JPEG          = 7,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_REC709	include/videodev2.h	/^	V4L2_COLORSPACE_REC709        = 3,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_SMPTE170M	include/videodev2.h	/^	V4L2_COLORSPACE_SMPTE170M     = 1,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_SMPTE240M	include/videodev2.h	/^	V4L2_COLORSPACE_SMPTE240M     = 2,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_SRGB	include/videodev2.h	/^	V4L2_COLORSPACE_SRGB          = 8,$/;"	e	enum:v4l2_colorspace
+V4L2_CTRL_CLASS_MPEG	include/videodev2.h	852;"	d
+V4L2_CTRL_CLASS_USER	include/videodev2.h	851;"	d
+V4L2_CTRL_DRIVER_PRIV	include/videodev2.h	856;"	d
+V4L2_CTRL_FLAG_DISABLED	include/videodev2.h	882;"	d
+V4L2_CTRL_FLAG_GRABBED	include/videodev2.h	883;"	d
+V4L2_CTRL_FLAG_INACTIVE	include/videodev2.h	886;"	d
+V4L2_CTRL_FLAG_NEXT_CTRL	include/videodev2.h	890;"	d
+V4L2_CTRL_FLAG_READ_ONLY	include/videodev2.h	884;"	d
+V4L2_CTRL_FLAG_SLIDER	include/videodev2.h	887;"	d
+V4L2_CTRL_FLAG_UPDATE	include/videodev2.h	885;"	d
+V4L2_CTRL_ID2CLASS	include/videodev2.h	855;"	d
+V4L2_CTRL_ID_MASK	include/videodev2.h	854;"	d
+V4L2_CTRL_TYPE_BOOLEAN	include/videodev2.h	/^	V4L2_CTRL_TYPE_BOOLEAN	     = 2,$/;"	e	enum:v4l2_ctrl_type
+V4L2_CTRL_TYPE_BUTTON	include/videodev2.h	/^	V4L2_CTRL_TYPE_BUTTON	     = 4,$/;"	e	enum:v4l2_ctrl_type
+V4L2_CTRL_TYPE_CTRL_CLASS	include/videodev2.h	/^	V4L2_CTRL_TYPE_CTRL_CLASS    = 6,$/;"	e	enum:v4l2_ctrl_type
+V4L2_CTRL_TYPE_INTEGER	include/videodev2.h	/^	V4L2_CTRL_TYPE_INTEGER	     = 1,$/;"	e	enum:v4l2_ctrl_type
+V4L2_CTRL_TYPE_INTEGER64	include/videodev2.h	/^	V4L2_CTRL_TYPE_INTEGER64     = 5,$/;"	e	enum:v4l2_ctrl_type
+V4L2_CTRL_TYPE_MENU	include/videodev2.h	/^	V4L2_CTRL_TYPE_MENU	     = 3,$/;"	e	enum:v4l2_ctrl_type
+V4L2_ENC_CMD_PAUSE	include/videodev2.h	1225;"	d
+V4L2_ENC_CMD_RESUME	include/videodev2.h	1226;"	d
+V4L2_ENC_CMD_START	include/videodev2.h	1223;"	d
+V4L2_ENC_CMD_STOP	include/videodev2.h	1224;"	d
+V4L2_ENC_CMD_STOP_AT_GOP_END	include/videodev2.h	1229;"	d
+V4L2_ENC_IDX_ENTRIES	include/videodev2.h	1214;"	d
+V4L2_ENC_IDX_FRAME_B	include/videodev2.h	1203;"	d
+V4L2_ENC_IDX_FRAME_I	include/videodev2.h	1201;"	d
+V4L2_ENC_IDX_FRAME_MASK	include/videodev2.h	1204;"	d
+V4L2_ENC_IDX_FRAME_P	include/videodev2.h	1202;"	d
+V4L2_FBUF_CAP_BITMAP_CLIPPING	include/videodev2.h	598;"	d
+V4L2_FBUF_CAP_CHROMAKEY	include/videodev2.h	596;"	d
+V4L2_FBUF_CAP_EXTERNOVERLAY	include/videodev2.h	595;"	d
+V4L2_FBUF_CAP_LIST_CLIPPING	include/videodev2.h	597;"	d
+V4L2_FBUF_FLAG_CHROMAKEY	include/videodev2.h	602;"	d
+V4L2_FBUF_FLAG_OVERLAY	include/videodev2.h	601;"	d
+V4L2_FBUF_FLAG_PRIMARY	include/videodev2.h	600;"	d
+V4L2_FIELD_ALTERNATE	include/videodev2.h	/^	V4L2_FIELD_ALTERNATE  = 7, \/* both fields alternating into$/;"	e	enum:v4l2_field
+V4L2_FIELD_ANY	include/videodev2.h	/^	V4L2_FIELD_ANY        = 0, \/* driver can choose from none,$/;"	e	enum:v4l2_field
+V4L2_FIELD_BOTTOM	include/videodev2.h	/^	V4L2_FIELD_BOTTOM     = 3, \/* bottom field only *\/$/;"	e	enum:v4l2_field
+V4L2_FIELD_HAS_BOTH	include/videodev2.h	123;"	d
+V4L2_FIELD_HAS_BOTTOM	include/videodev2.h	118;"	d
+V4L2_FIELD_HAS_TOP	include/videodev2.h	113;"	d
+V4L2_FIELD_INTERLACED	include/videodev2.h	/^	V4L2_FIELD_INTERLACED = 4, \/* both fields interlaced *\/$/;"	e	enum:v4l2_field
+V4L2_FIELD_NONE	include/videodev2.h	/^	V4L2_FIELD_NONE       = 1, \/* this device has no fields ... *\/$/;"	e	enum:v4l2_field
+V4L2_FIELD_SEQ_BT	include/videodev2.h	/^	V4L2_FIELD_SEQ_BT     = 6, \/* same as above + bottom-top order *\/$/;"	e	enum:v4l2_field
+V4L2_FIELD_SEQ_TB	include/videodev2.h	/^	V4L2_FIELD_SEQ_TB     = 5, \/* both fields sequential into one$/;"	e	enum:v4l2_field
+V4L2_FIELD_TOP	include/videodev2.h	/^	V4L2_FIELD_TOP        = 2, \/* top field only *\/$/;"	e	enum:v4l2_field
+V4L2_FMT_FLAG_COMPRESSED	include/videodev2.h	314;"	d
+V4L2_FRMIVAL_TYPE_CONTINUOUS	include/videodev2.h	/^	V4L2_FRMIVAL_TYPE_CONTINUOUS	= 2,$/;"	e	enum:v4l2_frmivaltypes
+V4L2_FRMIVAL_TYPE_DISCRETE	include/videodev2.h	/^	V4L2_FRMIVAL_TYPE_DISCRETE	= 1,$/;"	e	enum:v4l2_frmivaltypes
+V4L2_FRMIVAL_TYPE_STEPWISE	include/videodev2.h	/^	V4L2_FRMIVAL_TYPE_STEPWISE	= 3,$/;"	e	enum:v4l2_frmivaltypes
+V4L2_FRMSIZE_TYPE_CONTINUOUS	include/videodev2.h	/^	V4L2_FRMSIZE_TYPE_CONTINUOUS	= 2,$/;"	e	enum:v4l2_frmsizetypes
+V4L2_FRMSIZE_TYPE_DISCRETE	include/videodev2.h	/^	V4L2_FRMSIZE_TYPE_DISCRETE	= 1,$/;"	e	enum:v4l2_frmsizetypes
+V4L2_FRMSIZE_TYPE_STEPWISE	include/videodev2.h	/^	V4L2_FRMSIZE_TYPE_STEPWISE	= 3,$/;"	e	enum:v4l2_frmsizetypes
+V4L2_INPUT_TYPE_CAMERA	include/videodev2.h	782;"	d
+V4L2_INPUT_TYPE_TUNER	include/videodev2.h	781;"	d
+V4L2_IN_ST_COLOR_KILL	include/videodev2.h	791;"	d
+V4L2_IN_ST_MACROVISION	include/videodev2.h	799;"	d
+V4L2_IN_ST_NO_ACCESS	include/videodev2.h	800;"	d
+V4L2_IN_ST_NO_CARRIER	include/videodev2.h	796;"	d
+V4L2_IN_ST_NO_COLOR	include/videodev2.h	787;"	d
+V4L2_IN_ST_NO_EQU	include/videodev2.h	795;"	d
+V4L2_IN_ST_NO_H_LOCK	include/videodev2.h	790;"	d
+V4L2_IN_ST_NO_POWER	include/videodev2.h	785;"	d
+V4L2_IN_ST_NO_SIGNAL	include/videodev2.h	786;"	d
+V4L2_IN_ST_NO_SYNC	include/videodev2.h	794;"	d
+V4L2_IN_ST_VTR	include/videodev2.h	801;"	d
+V4L2_JPEG_MARKER_APP	include/videodev2.h	535;"	d
+V4L2_JPEG_MARKER_COM	include/videodev2.h	534;"	d
+V4L2_JPEG_MARKER_DHT	include/videodev2.h	531;"	d
+V4L2_JPEG_MARKER_DQT	include/videodev2.h	532;"	d
+V4L2_JPEG_MARKER_DRI	include/videodev2.h	533;"	d
+V4L2_MEMORY_MMAP	include/videodev2.h	/^	V4L2_MEMORY_MMAP             = 1,$/;"	e	enum:v4l2_memory
+V4L2_MEMORY_OVERLAY	include/videodev2.h	/^	V4L2_MEMORY_OVERLAY          = 3,$/;"	e	enum:v4l2_memory
+V4L2_MEMORY_USERPTR	include/videodev2.h	/^	V4L2_MEMORY_USERPTR          = 2,$/;"	e	enum:v4l2_memory
+V4L2_MODE_HIGHQUALITY	include/videodev2.h	634;"	d
+V4L2_MPEG_AC3	include/videodev2.h	/^	V4L2_MPEG_AC3,		\/* AC3 *\/$/;"	e	enum:v4l2_mpeg_audiotype
+V4L2_MPEG_ASPECT_16_9	include/videodev2.h	/^	V4L2_MPEG_ASPECT_16_9   = 3,   \/* 16 : 9       *\/$/;"	e	enum:v4l2_mpeg_aspectratio
+V4L2_MPEG_ASPECT_1_221	include/videodev2.h	/^	V4L2_MPEG_ASPECT_1_221  = 4,   \/*  1 : 2,21    *\/$/;"	e	enum:v4l2_mpeg_aspectratio
+V4L2_MPEG_ASPECT_4_3	include/videodev2.h	/^	V4L2_MPEG_ASPECT_4_3    = 2,   \/*  4 : 3       *\/$/;"	e	enum:v4l2_mpeg_aspectratio
+V4L2_MPEG_ASPECT_SQUARE	include/videodev2.h	/^	V4L2_MPEG_ASPECT_SQUARE = 1,   \/* square pixel *\/$/;"	e	enum:v4l2_mpeg_aspectratio
+V4L2_MPEG_AUDIO_CRC_CRC16	include/videodev2.h	/^	V4L2_MPEG_AUDIO_CRC_CRC16 = 1,$/;"	e	enum:v4l2_mpeg_audio_crc
+V4L2_MPEG_AUDIO_CRC_NONE	include/videodev2.h	/^	V4L2_MPEG_AUDIO_CRC_NONE  = 0,$/;"	e	enum:v4l2_mpeg_audio_crc
+V4L2_MPEG_AUDIO_EMPHASIS_50_DIV_15_uS	include/videodev2.h	/^	V4L2_MPEG_AUDIO_EMPHASIS_50_DIV_15_uS = 1,$/;"	e	enum:v4l2_mpeg_audio_emphasis
+V4L2_MPEG_AUDIO_EMPHASIS_CCITT_J17	include/videodev2.h	/^	V4L2_MPEG_AUDIO_EMPHASIS_CCITT_J17    = 2,$/;"	e	enum:v4l2_mpeg_audio_emphasis
+V4L2_MPEG_AUDIO_EMPHASIS_NONE	include/videodev2.h	/^	V4L2_MPEG_AUDIO_EMPHASIS_NONE         = 0,$/;"	e	enum:v4l2_mpeg_audio_emphasis
+V4L2_MPEG_AUDIO_ENCODING_LAYER_1	include/videodev2.h	/^	V4L2_MPEG_AUDIO_ENCODING_LAYER_1 = 0,$/;"	e	enum:v4l2_mpeg_audio_encoding
+V4L2_MPEG_AUDIO_ENCODING_LAYER_2	include/videodev2.h	/^	V4L2_MPEG_AUDIO_ENCODING_LAYER_2 = 1,$/;"	e	enum:v4l2_mpeg_audio_encoding
+V4L2_MPEG_AUDIO_ENCODING_LAYER_3	include/videodev2.h	/^	V4L2_MPEG_AUDIO_ENCODING_LAYER_3 = 2,$/;"	e	enum:v4l2_mpeg_audio_encoding
+V4L2_MPEG_AUDIO_L1_BITRATE_128K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_128K = 3,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_160K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_160K = 4,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_192K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_192K = 5,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_224K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_224K = 6,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_256K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_256K = 7,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_288K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_288K = 8,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_320K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_320K = 9,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_32K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_32K  = 0,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_352K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_352K = 10,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_384K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_384K = 11,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_416K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_416K = 12,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_448K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_448K = 13,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_64K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_64K  = 1,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_96K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_96K  = 2,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_112K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_112K = 6,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_128K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_128K = 7,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_160K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_160K = 8,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_192K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_192K = 9,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_224K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_224K = 10,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_256K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_256K = 11,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_320K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_320K = 12,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_32K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_32K  = 0,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_384K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_384K = 13,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_48K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_48K  = 1,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_56K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_56K  = 2,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_64K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_64K  = 3,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_80K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_80K  = 4,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_96K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_96K  = 5,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_112K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_112K = 7,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_128K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_128K = 8,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_160K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_160K = 9,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_192K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_192K = 10,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_224K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_224K = 11,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_256K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_256K = 12,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_320K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_320K = 13,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_32K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_32K  = 0,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_40K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_40K  = 1,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_48K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_48K  = 2,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_56K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_56K  = 3,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_64K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_64K  = 4,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_80K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_80K  = 5,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_96K	include/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_96K  = 6,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_MODE_DUAL	include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_DUAL         = 2,$/;"	e	enum:v4l2_mpeg_audio_mode
+V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_12	include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_12 = 2,$/;"	e	enum:v4l2_mpeg_audio_mode_extension
+V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_16	include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_16 = 3,$/;"	e	enum:v4l2_mpeg_audio_mode_extension
+V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_4	include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_4  = 0,$/;"	e	enum:v4l2_mpeg_audio_mode_extension
+V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_8	include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_8  = 1,$/;"	e	enum:v4l2_mpeg_audio_mode_extension
+V4L2_MPEG_AUDIO_MODE_JOINT_STEREO	include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_JOINT_STEREO = 1,$/;"	e	enum:v4l2_mpeg_audio_mode
+V4L2_MPEG_AUDIO_MODE_MONO	include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_MONO         = 3,$/;"	e	enum:v4l2_mpeg_audio_mode
+V4L2_MPEG_AUDIO_MODE_STEREO	include/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_STEREO       = 0,$/;"	e	enum:v4l2_mpeg_audio_mode
+V4L2_MPEG_AUDIO_SAMPLING_FREQ_32000	include/videodev2.h	/^	V4L2_MPEG_AUDIO_SAMPLING_FREQ_32000 = 2,$/;"	e	enum:v4l2_mpeg_audio_sampling_freq
+V4L2_MPEG_AUDIO_SAMPLING_FREQ_44100	include/videodev2.h	/^	V4L2_MPEG_AUDIO_SAMPLING_FREQ_44100 = 0,$/;"	e	enum:v4l2_mpeg_audio_sampling_freq
+V4L2_MPEG_AUDIO_SAMPLING_FREQ_48000	include/videodev2.h	/^	V4L2_MPEG_AUDIO_SAMPLING_FREQ_48000 = 1,$/;"	e	enum:v4l2_mpeg_audio_sampling_freq
+V4L2_MPEG_AU_2_I	include/videodev2.h	/^	V4L2_MPEG_AU_2_I,	\/* MPEG-2 layer 1 *\/$/;"	e	enum:v4l2_mpeg_audiotype
+V4L2_MPEG_AU_2_II	include/videodev2.h	/^	V4L2_MPEG_AU_2_II,	\/* MPEG-2 layer 2 *\/$/;"	e	enum:v4l2_mpeg_audiotype
+V4L2_MPEG_AU_2_III	include/videodev2.h	/^	V4L2_MPEG_AU_2_III,	\/* MPEG-2 layer 3 *\/$/;"	e	enum:v4l2_mpeg_audiotype
+V4L2_MPEG_CX2341X_VIDEO_CHROMA_SPATIAL_FILTER_TYPE_1D_HOR	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_CHROMA_SPATIAL_FILTER_TYPE_1D_HOR = 1,$/;"	e	enum:v4l2_mpeg_cx2341x_video_chroma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_CHROMA_SPATIAL_FILTER_TYPE_OFF	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_CHROMA_SPATIAL_FILTER_TYPE_OFF    = 0,$/;"	e	enum:v4l2_mpeg_cx2341x_video_chroma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_1D_HOR	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_1D_HOR               = 1,$/;"	e	enum:v4l2_mpeg_cx2341x_video_luma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_1D_VERT	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_1D_VERT              = 2,$/;"	e	enum:v4l2_mpeg_cx2341x_video_luma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_2D_HV_SEPARABLE	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_2D_HV_SEPARABLE      = 3,$/;"	e	enum:v4l2_mpeg_cx2341x_video_luma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_2D_SYM_NON_SEPARABLE	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_2D_SYM_NON_SEPARABLE = 4,$/;"	e	enum:v4l2_mpeg_cx2341x_video_luma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_OFF	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_OFF                  = 0,$/;"	e	enum:v4l2_mpeg_cx2341x_video_luma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_DIAG	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_DIAG     = 4,$/;"	e	enum:v4l2_mpeg_cx2341x_video_median_filter_type
+V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_HOR	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_HOR      = 1,$/;"	e	enum:v4l2_mpeg_cx2341x_video_median_filter_type
+V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_HOR_VERT	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_HOR_VERT = 3,$/;"	e	enum:v4l2_mpeg_cx2341x_video_median_filter_type
+V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_OFF	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_OFF      = 0,$/;"	e	enum:v4l2_mpeg_cx2341x_video_median_filter_type
+V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_VERT	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_VERT     = 2,$/;"	e	enum:v4l2_mpeg_cx2341x_video_median_filter_type
+V4L2_MPEG_CX2341X_VIDEO_SPATIAL_FILTER_MODE_AUTO	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_SPATIAL_FILTER_MODE_AUTO   = 1,$/;"	e	enum:v4l2_mpeg_cx2341x_video_spatial_filter_mode
+V4L2_MPEG_CX2341X_VIDEO_SPATIAL_FILTER_MODE_MANUAL	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_SPATIAL_FILTER_MODE_MANUAL = 0,$/;"	e	enum:v4l2_mpeg_cx2341x_video_spatial_filter_mode
+V4L2_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER_MODE_AUTO	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER_MODE_AUTO   = 1,$/;"	e	enum:v4l2_mpeg_cx2341x_video_temporal_filter_mode
+V4L2_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER_MODE_MANUAL	include/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER_MODE_MANUAL = 0,$/;"	e	enum:v4l2_mpeg_cx2341x_video_temporal_filter_mode
+V4L2_MPEG_LPCM	include/videodev2.h	/^	V4L2_MPEG_LPCM,		\/* LPCM *\/$/;"	e	enum:v4l2_mpeg_audiotype
+V4L2_MPEG_PS_2	include/videodev2.h	/^	V4L2_MPEG_PS_2,		\/* MPEG-2 program stream *\/$/;"	e	enum:v4l2_mpeg_streamtype
+V4L2_MPEG_PS_DVD	include/videodev2.h	/^	V4L2_MPEG_PS_DVD,      	\/* MPEG-2 program stream with DVD header fixups *\/$/;"	e	enum:v4l2_mpeg_streamtype
+V4L2_MPEG_SS_1	include/videodev2.h	/^	V4L2_MPEG_SS_1,		\/* MPEG-1 system stream *\/$/;"	e	enum:v4l2_mpeg_streamtype
+V4L2_MPEG_STREAM_TYPE_MPEG1_SS	include/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG1_SS   = 2, \/* MPEG-1 system stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_TYPE_MPEG1_VCD	include/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG1_VCD  = 4, \/* MPEG-1 VCD-compatible stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_TYPE_MPEG2_DVD	include/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG2_DVD  = 3, \/* MPEG-2 DVD-compatible stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_TYPE_MPEG2_PS	include/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG2_PS   = 0, \/* MPEG-2 program stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_TYPE_MPEG2_SVCD	include/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG2_SVCD = 5, \/* MPEG-2 SVCD-compatible stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_TYPE_MPEG2_TS	include/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG2_TS   = 1, \/* MPEG-2 transport stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_VBI_FMT_IVTV	include/videodev2.h	/^	V4L2_MPEG_STREAM_VBI_FMT_IVTV = 1,  \/* VBI in private packets, IVTV format *\/$/;"	e	enum:v4l2_mpeg_stream_vbi_fmt
+V4L2_MPEG_STREAM_VBI_FMT_NONE	include/videodev2.h	/^	V4L2_MPEG_STREAM_VBI_FMT_NONE = 0,  \/* No VBI in the MPEG stream *\/$/;"	e	enum:v4l2_mpeg_stream_vbi_fmt
+V4L2_MPEG_TS_2	include/videodev2.h	/^	V4L2_MPEG_TS_2,		\/* MPEG-2 transport stream *\/$/;"	e	enum:v4l2_mpeg_streamtype
+V4L2_MPEG_VIDEO_ASPECT_16x9	include/videodev2.h	/^	V4L2_MPEG_VIDEO_ASPECT_16x9    = 2,$/;"	e	enum:v4l2_mpeg_video_aspect
+V4L2_MPEG_VIDEO_ASPECT_1x1	include/videodev2.h	/^	V4L2_MPEG_VIDEO_ASPECT_1x1     = 0,$/;"	e	enum:v4l2_mpeg_video_aspect
+V4L2_MPEG_VIDEO_ASPECT_221x100	include/videodev2.h	/^	V4L2_MPEG_VIDEO_ASPECT_221x100 = 3,$/;"	e	enum:v4l2_mpeg_video_aspect
+V4L2_MPEG_VIDEO_ASPECT_4x3	include/videodev2.h	/^	V4L2_MPEG_VIDEO_ASPECT_4x3     = 1,$/;"	e	enum:v4l2_mpeg_video_aspect
+V4L2_MPEG_VIDEO_BITRATE_MODE_CBR	include/videodev2.h	/^	V4L2_MPEG_VIDEO_BITRATE_MODE_CBR = 1,$/;"	e	enum:v4l2_mpeg_video_bitrate_mode
+V4L2_MPEG_VIDEO_BITRATE_MODE_VBR	include/videodev2.h	/^	V4L2_MPEG_VIDEO_BITRATE_MODE_VBR = 0,$/;"	e	enum:v4l2_mpeg_video_bitrate_mode
+V4L2_MPEG_VIDEO_ENCODING_MPEG_1	include/videodev2.h	/^	V4L2_MPEG_VIDEO_ENCODING_MPEG_1 = 0,$/;"	e	enum:v4l2_mpeg_video_encoding
+V4L2_MPEG_VIDEO_ENCODING_MPEG_2	include/videodev2.h	/^	V4L2_MPEG_VIDEO_ENCODING_MPEG_2 = 1,$/;"	e	enum:v4l2_mpeg_video_encoding
+V4L2_MPEG_VI_1	include/videodev2.h	/^	V4L2_MPEG_VI_1,		\/* MPEG-1 *\/$/;"	e	enum:v4l2_mpeg_videotype
+V4L2_MPEG_VI_2	include/videodev2.h	/^	V4L2_MPEG_VI_2,		\/* MPEG-2 *\/$/;"	e	enum:v4l2_mpeg_videotype
+V4L2_OUTPUT_TYPE_ANALOG	include/videodev2.h	818;"	d
+V4L2_OUTPUT_TYPE_ANALOGVGAOVERLAY	include/videodev2.h	819;"	d
+V4L2_OUTPUT_TYPE_MODULATOR	include/videodev2.h	817;"	d
+V4L2_PIX_FMT_BGR24	include/videodev2.h	260;"	d
+V4L2_PIX_FMT_BGR32	include/videodev2.h	262;"	d
+V4L2_PIX_FMT_DV	include/videodev2.h	291;"	d
+V4L2_PIX_FMT_ET61X251	include/videodev2.h	299;"	d
+V4L2_PIX_FMT_GREY	include/videodev2.h	264;"	d
+V4L2_PIX_FMT_HI240	include/videodev2.h	281;"	d
+V4L2_PIX_FMT_HM12	include/videodev2.h	282;"	d
+V4L2_PIX_FMT_JPEG	include/videodev2.h	290;"	d
+V4L2_PIX_FMT_MJPEG	include/videodev2.h	289;"	d
+V4L2_PIX_FMT_MPEG	include/videodev2.h	292;"	d
+V4L2_PIX_FMT_NV12	include/videodev2.h	274;"	d
+V4L2_PIX_FMT_NV21	include/videodev2.h	275;"	d
+V4L2_PIX_FMT_PWC1	include/videodev2.h	297;"	d
+V4L2_PIX_FMT_PWC2	include/videodev2.h	298;"	d
+V4L2_PIX_FMT_RGB24	include/videodev2.h	261;"	d
+V4L2_PIX_FMT_RGB32	include/videodev2.h	263;"	d
+V4L2_PIX_FMT_RGB332	include/videodev2.h	255;"	d
+V4L2_PIX_FMT_RGB444	include/videodev2.h	283;"	d
+V4L2_PIX_FMT_RGB555	include/videodev2.h	256;"	d
+V4L2_PIX_FMT_RGB555X	include/videodev2.h	258;"	d
+V4L2_PIX_FMT_RGB565	include/videodev2.h	257;"	d
+V4L2_PIX_FMT_RGB565X	include/videodev2.h	259;"	d
+V4L2_PIX_FMT_SBGGR8	include/videodev2.h	286;"	d
+V4L2_PIX_FMT_SN9C10X	include/videodev2.h	296;"	d
+V4L2_PIX_FMT_SRGGB10	include/pxa_camera_zl.h	145;"	d
+V4L2_PIX_FMT_SRGGB8	include/pxa_camera_zl.h	144;"	d
+V4L2_PIX_FMT_UYVY	include/videodev2.h	268;"	d
+V4L2_PIX_FMT_WNVA	include/videodev2.h	295;"	d
+V4L2_PIX_FMT_Y41P	include/videodev2.h	271;"	d
+V4L2_PIX_FMT_YUV410	include/videodev2.h	278;"	d
+V4L2_PIX_FMT_YUV411P	include/videodev2.h	270;"	d
+V4L2_PIX_FMT_YUV420	include/videodev2.h	279;"	d
+V4L2_PIX_FMT_YUV422P	include/videodev2.h	269;"	d
+V4L2_PIX_FMT_YUYV	include/videodev2.h	267;"	d
+V4L2_PIX_FMT_YVU410	include/videodev2.h	265;"	d
+V4L2_PIX_FMT_YVU420	include/videodev2.h	266;"	d
+V4L2_PIX_FMT_YYUV	include/videodev2.h	280;"	d
+V4L2_PRIORITY_BACKGROUND	include/videodev2.h	/^	V4L2_PRIORITY_BACKGROUND  = 1,$/;"	e	enum:v4l2_priority
+V4L2_PRIORITY_DEFAULT	include/videodev2.h	/^	V4L2_PRIORITY_DEFAULT     = V4L2_PRIORITY_INTERACTIVE,$/;"	e	enum:v4l2_priority
+V4L2_PRIORITY_INTERACTIVE	include/videodev2.h	/^	V4L2_PRIORITY_INTERACTIVE = 2,$/;"	e	enum:v4l2_priority
+V4L2_PRIORITY_RECORD	include/videodev2.h	/^	V4L2_PRIORITY_RECORD      = 3,$/;"	e	enum:v4l2_priority
+V4L2_PRIORITY_UNSET	include/videodev2.h	/^	V4L2_PRIORITY_UNSET       = 0,  \/* not initialized *\/$/;"	e	enum:v4l2_priority
+V4L2_SLICED_CAPTION_525	include/videodev2.h	1292;"	d
+V4L2_SLICED_TELETEXT_B	include/videodev2.h	1288;"	d
+V4L2_SLICED_VBI_525	include/videodev2.h	1296;"	d
+V4L2_SLICED_VBI_625	include/videodev2.h	1297;"	d
+V4L2_SLICED_VPS	include/videodev2.h	1290;"	d
+V4L2_SLICED_WSS_625	include/videodev2.h	1294;"	d
+V4L2_STD_525_60	include/videodev2.h	740;"	d
+V4L2_STD_625_50	include/videodev2.h	744;"	d
+V4L2_STD_ALL	include/videodev2.h	752;"	d
+V4L2_STD_ATSC	include/videodev2.h	748;"	d
+V4L2_STD_ATSC_16_VSB	include/videodev2.h	699;"	d
+V4L2_STD_ATSC_8_VSB	include/videodev2.h	698;"	d
+V4L2_STD_B	include/videodev2.h	712;"	d
+V4L2_STD_DK	include/videodev2.h	714;"	d
+V4L2_STD_GH	include/videodev2.h	713;"	d
+V4L2_STD_MN	include/videodev2.h	711;"	d
+V4L2_STD_NTSC	include/videodev2.h	727;"	d
+V4L2_STD_NTSC_443	include/videodev2.h	685;"	d
+V4L2_STD_NTSC_M	include/videodev2.h	683;"	d
+V4L2_STD_NTSC_M_JP	include/videodev2.h	684;"	d
+V4L2_STD_NTSC_M_KR	include/videodev2.h	686;"	d
+V4L2_STD_PAL	include/videodev2.h	723;"	d
+V4L2_STD_PAL_60	include/videodev2.h	681;"	d
+V4L2_STD_PAL_B	include/videodev2.h	669;"	d
+V4L2_STD_PAL_B1	include/videodev2.h	670;"	d
+V4L2_STD_PAL_BG	include/videodev2.h	717;"	d
+V4L2_STD_PAL_D	include/videodev2.h	674;"	d
+V4L2_STD_PAL_D1	include/videodev2.h	675;"	d
+V4L2_STD_PAL_DK	include/videodev2.h	720;"	d
+V4L2_STD_PAL_G	include/videodev2.h	671;"	d
+V4L2_STD_PAL_H	include/videodev2.h	672;"	d
+V4L2_STD_PAL_I	include/videodev2.h	673;"	d
+V4L2_STD_PAL_K	include/videodev2.h	676;"	d
+V4L2_STD_PAL_M	include/videodev2.h	678;"	d
+V4L2_STD_PAL_N	include/videodev2.h	679;"	d
+V4L2_STD_PAL_Nc	include/videodev2.h	680;"	d
+V4L2_STD_SECAM	include/videodev2.h	733;"	d
+V4L2_STD_SECAM_B	include/videodev2.h	688;"	d
+V4L2_STD_SECAM_D	include/videodev2.h	689;"	d
+V4L2_STD_SECAM_DK	include/videodev2.h	730;"	d
+V4L2_STD_SECAM_G	include/videodev2.h	690;"	d
+V4L2_STD_SECAM_H	include/videodev2.h	691;"	d
+V4L2_STD_SECAM_K	include/videodev2.h	692;"	d
+V4L2_STD_SECAM_K1	include/videodev2.h	693;"	d
+V4L2_STD_SECAM_L	include/videodev2.h	694;"	d
+V4L2_STD_SECAM_LC	include/videodev2.h	695;"	d
+V4L2_STD_UNKNOWN	include/videodev2.h	751;"	d
+V4L2_TC_FLAG_COLORFRAME	include/videodev2.h	415;"	d
+V4L2_TC_FLAG_DROPFRAME	include/videodev2.h	414;"	d
+V4L2_TC_TYPE_24FPS	include/videodev2.h	407;"	d
+V4L2_TC_TYPE_25FPS	include/videodev2.h	408;"	d
+V4L2_TC_TYPE_30FPS	include/videodev2.h	409;"	d
+V4L2_TC_TYPE_50FPS	include/videodev2.h	410;"	d
+V4L2_TC_TYPE_60FPS	include/videodev2.h	411;"	d
+V4L2_TC_USERBITS_8BITCHARS	include/videodev2.h	418;"	d
+V4L2_TC_USERBITS_USERDEFINED	include/videodev2.h	417;"	d
+V4L2_TC_USERBITS_field	include/videodev2.h	416;"	d
+V4L2_TUNER_ANALOG_TV	include/videodev2.h	/^	V4L2_TUNER_ANALOG_TV	     = 2,$/;"	e	enum:v4l2_tuner_type
+V4L2_TUNER_CAP_LANG1	include/videodev2.h	1142;"	d
+V4L2_TUNER_CAP_LANG2	include/videodev2.h	1140;"	d
+V4L2_TUNER_CAP_LOW	include/videodev2.h	1137;"	d
+V4L2_TUNER_CAP_NORM	include/videodev2.h	1138;"	d
+V4L2_TUNER_CAP_SAP	include/videodev2.h	1141;"	d
+V4L2_TUNER_CAP_STEREO	include/videodev2.h	1139;"	d
+V4L2_TUNER_DIGITAL_TV	include/videodev2.h	/^	V4L2_TUNER_DIGITAL_TV	     = 3,$/;"	e	enum:v4l2_tuner_type
+V4L2_TUNER_MODE_LANG1	include/videodev2.h	1156;"	d
+V4L2_TUNER_MODE_LANG1_LANG2	include/videodev2.h	1157;"	d
+V4L2_TUNER_MODE_LANG2	include/videodev2.h	1154;"	d
+V4L2_TUNER_MODE_MONO	include/videodev2.h	1152;"	d
+V4L2_TUNER_MODE_SAP	include/videodev2.h	1155;"	d
+V4L2_TUNER_MODE_STEREO	include/videodev2.h	1153;"	d
+V4L2_TUNER_RADIO	include/videodev2.h	/^	V4L2_TUNER_RADIO	     = 1,$/;"	e	enum:v4l2_tuner_type
+V4L2_TUNER_SUB_LANG1	include/videodev2.h	1149;"	d
+V4L2_TUNER_SUB_LANG2	include/videodev2.h	1147;"	d
+V4L2_TUNER_SUB_MONO	include/videodev2.h	1145;"	d
+V4L2_TUNER_SUB_SAP	include/videodev2.h	1148;"	d
+V4L2_TUNER_SUB_STEREO	include/videodev2.h	1146;"	d
+V4L2_VBI_INTERLACED	include/videodev2.h	1265;"	d
+V4L2_VBI_UNSYNC	include/videodev2.h	1264;"	d
+VIDEOBUF_COUNT	driver/camera.c	113;"	d	file:
+VIDEOBUF_COUNT	include/cam_values.h	6;"	d
+VIDEO_MAX_FRAME	include/videodev2.h	70;"	d
+VIDEO_PALETTE_RGGB10	include/pxa_camera_zl.h	139;"	d
+VIDEO_PALETTE_RGGB8	include/pxa_camera_zl.h	138;"	d
+VIDEO_START	include/pxa_camera_zl.h	108;"	d
+VIDEO_STOP	include/pxa_camera_zl.h	109;"	d
+VIDIOC_CROPCAP	include/videodev2.h	1419;"	d
+VIDIOC_CROPCAP_OLD	include/videodev2.h	1454;"	d
+VIDIOC_DBG_G_REGISTER	include/videodev2.h	1444;"	d
+VIDIOC_DBG_S_REGISTER	include/videodev2.h	1443;"	d
+VIDIOC_DQBUF	include/videodev2.h	1391;"	d
+VIDIOC_ENCODER_CMD	include/videodev2.h	1439;"	d
+VIDIOC_ENUMAUDIO	include/videodev2.h	1426;"	d
+VIDIOC_ENUMAUDOUT	include/videodev2.h	1427;"	d
+VIDIOC_ENUMINPUT	include/videodev2.h	1399;"	d
+VIDIOC_ENUMOUTPUT	include/videodev2.h	1412;"	d
+VIDIOC_ENUMSTD	include/videodev2.h	1398;"	d
+VIDIOC_ENUM_FMT	include/videodev2.h	1378;"	d
+VIDIOC_ENUM_FRAMEINTERVALS	include/videodev2.h	1437;"	d
+VIDIOC_ENUM_FRAMESIZES	include/videodev2.h	1436;"	d
+VIDIOC_G_AUDIO	include/videodev2.h	1404;"	d
+VIDIOC_G_AUDIO_OLD	include/videodev2.h	1452;"	d
+VIDIOC_G_AUDOUT	include/videodev2.h	1413;"	d
+VIDIOC_G_AUDOUT_OLD	include/videodev2.h	1453;"	d
+VIDIOC_G_CROP	include/videodev2.h	1420;"	d
+VIDIOC_G_CTRL	include/videodev2.h	1400;"	d
+VIDIOC_G_ENC_INDEX	include/videodev2.h	1438;"	d
+VIDIOC_G_EXT_CTRLS	include/videodev2.h	1432;"	d
+VIDIOC_G_FBUF	include/videodev2.h	1387;"	d
+VIDIOC_G_FMT	include/videodev2.h	1379;"	d
+VIDIOC_G_FREQUENCY	include/videodev2.h	1417;"	d
+VIDIOC_G_INPUT	include/videodev2.h	1408;"	d
+VIDIOC_G_JPEGCOMP	include/videodev2.h	1422;"	d
+VIDIOC_G_MODULATOR	include/videodev2.h	1415;"	d
+VIDIOC_G_MPEGCOMP	include/videodev2.h	1382;"	d
+VIDIOC_G_OUTPUT	include/videodev2.h	1410;"	d
+VIDIOC_G_PARM	include/videodev2.h	1394;"	d
+VIDIOC_G_PRIORITY	include/videodev2.h	1428;"	d
+VIDIOC_G_SLICED_VBI_CAP	include/videodev2.h	1430;"	d
+VIDIOC_G_STD	include/videodev2.h	1396;"	d
+VIDIOC_G_TUNER	include/videodev2.h	1402;"	d
+VIDIOC_LOG_STATUS	include/videodev2.h	1431;"	d
+VIDIOC_OVERLAY	include/videodev2.h	1389;"	d
+VIDIOC_OVERLAY_OLD	include/videodev2.h	1449;"	d
+VIDIOC_QBUF	include/videodev2.h	1390;"	d
+VIDIOC_QUERYBUF	include/videodev2.h	1386;"	d
+VIDIOC_QUERYCAP	include/videodev2.h	1376;"	d
+VIDIOC_QUERYCTRL	include/videodev2.h	1406;"	d
+VIDIOC_QUERYMENU	include/videodev2.h	1407;"	d
+VIDIOC_QUERYSTD	include/videodev2.h	1424;"	d
+VIDIOC_REQBUFS	include/videodev2.h	1385;"	d
+VIDIOC_RESERVED	include/videodev2.h	1377;"	d
+VIDIOC_STREAMOFF	include/videodev2.h	1393;"	d
+VIDIOC_STREAMON	include/videodev2.h	1392;"	d
+VIDIOC_S_AUDIO	include/videodev2.h	1405;"	d
+VIDIOC_S_AUDOUT	include/videodev2.h	1414;"	d
+VIDIOC_S_CROP	include/videodev2.h	1421;"	d
+VIDIOC_S_CTRL	include/videodev2.h	1401;"	d
+VIDIOC_S_CTRL_OLD	include/videodev2.h	1451;"	d
+VIDIOC_S_EXT_CTRLS	include/videodev2.h	1433;"	d
+VIDIOC_S_FBUF	include/videodev2.h	1388;"	d
+VIDIOC_S_FMT	include/videodev2.h	1380;"	d
+VIDIOC_S_FREQUENCY	include/videodev2.h	1418;"	d
+VIDIOC_S_INPUT	include/videodev2.h	1409;"	d
+VIDIOC_S_JPEGCOMP	include/videodev2.h	1423;"	d
+VIDIOC_S_MODULATOR	include/videodev2.h	1416;"	d
+VIDIOC_S_MPEGCOMP	include/videodev2.h	1383;"	d
+VIDIOC_S_OUTPUT	include/videodev2.h	1411;"	d
+VIDIOC_S_PARM	include/videodev2.h	1395;"	d
+VIDIOC_S_PARM_OLD	include/videodev2.h	1450;"	d
+VIDIOC_S_PRIORITY	include/videodev2.h	1429;"	d
+VIDIOC_S_STD	include/videodev2.h	1397;"	d
+VIDIOC_S_TUNER	include/videodev2.h	1403;"	d
+VIDIOC_TRY_ENCODER_CMD	include/videodev2.h	1440;"	d
+VIDIOC_TRY_EXT_CTRLS	include/videodev2.h	1434;"	d
+VIDIOC_TRY_FMT	include/videodev2.h	1425;"	d
+VID_TYPE_CAPTURE	include/videodev2.h	72;"	d
+VID_TYPE_CHROMAKEY	include/videodev2.h	76;"	d
+VID_TYPE_CLIPPING	include/videodev2.h	77;"	d
+VID_TYPE_FRAMERAM	include/videodev2.h	78;"	d
+VID_TYPE_MJPEG_DECODER	include/videodev2.h	84;"	d
+VID_TYPE_MJPEG_ENCODER	include/videodev2.h	85;"	d
+VID_TYPE_MONOCHROME	include/videodev2.h	80;"	d
+VID_TYPE_MPEG_DECODER	include/videodev2.h	82;"	d
+VID_TYPE_MPEG_ENCODER	include/videodev2.h	83;"	d
+VID_TYPE_OVERLAY	include/videodev2.h	75;"	d
+VID_TYPE_SCALES	include/videodev2.h	79;"	d
+VID_TYPE_SUBCAPTURE	include/videodev2.h	81;"	d
+VID_TYPE_TELETEXT	include/videodev2.h	74;"	d
+VID_TYPE_TUNER	include/videodev2.h	73;"	d
+WCAM_VIDIOCGCAMREG	include/pxa_camera_zl.h	64;"	d
+WCAM_VIDIOCGCIREG	include/pxa_camera_zl.h	66;"	d
+WCAM_VIDIOCGHST	include/pxa_camera_zl.h	50;"	d
+WCAM_VIDIOCGINFOR	include/pxa_camera_zl.h	68;"	d
+WCAM_VIDIOCSCAMREG	include/pxa_camera_zl.h	63;"	d
+WCAM_VIDIOCSCIREG	include/pxa_camera_zl.h	65;"	d
+WCAM_VIDIOCSINFOR	include/pxa_camera_zl.h	67;"	d
+Y	include/cam_values.h	61;"	d
+YUV422_BPP	include/pxa_camera_zl.h	99;"	d
+_PXA3XX_MEDIA_LIB_HEADER_	include/pxa_lib.h	16;"	d
+__CAMERA_H__	include/miso_camera.h	2;"	d
+__CAM_VALUES_H__	include/cam_values.h	2;"	d
+__CAR_LIB_H__	include/car_lib.h	2;"	d
+__KEY_HANDLER_H__	include/key_handler.h	4;"	d
+__LINUX_PXA_CAMERA_H_	include/pxa_camera_zl.h	22;"	d
+__LINUX_VIDEODEV2_H	include/videodev2.h	57;"	d
+__MISO_CAR_LIB_H__	include/miso_car_lib.h	2;"	d
+__MISO_VALUES_H__	include/miso_values.h	3;"	d
+__SENSOR_HANDLER_H__	include/sensor_handler.h	2;"	d
+__XSCALE_SOURCE_DEBUG_HEADER__	include/pxa_dbg.h	18;"	d
+__user	include/videodev2.h	62;"	d
+a2dm_left	include/miso_values.h	/^static int a2dm_left[45]={$/;"	v
+a2dm_right	include/miso_values.h	/^static int a2dm_right[45]={$/;"	v
+accel	include/car_lib.h	/^char accel(char* acc)$/;"	f
+act	include/miso_camera.h	/^struct sigaction act;$/;"	v	typeref:struct:sigaction
+add_states	include/state_manage.h	/^void add_states(struct img_data* idata)$/;"	f
+afc	include/videodev2.h	/^	__s32			afc;$/;"	m	struct:v4l2_tuner
+angle	include/miso_values.h	/^	int angle;	$/;"	m	struct:image_data
+au_bitrate	include/videodev2.h	/^	struct v4l2_bitrate		au_bitrate;$/;"	m	struct:v4l2_mpeg_compression	typeref:struct:v4l2_mpeg_compression::v4l2_bitrate
+au_pesid	include/videodev2.h	/^	__u8                            au_pesid;$/;"	m	struct:v4l2_mpeg_compression
+au_sample_rate	include/videodev2.h	/^	__u32				au_sample_rate;$/;"	m	struct:v4l2_mpeg_compression
+au_type	include/videodev2.h	/^	enum v4l2_mpeg_audiotype	au_type;$/;"	m	struct:v4l2_mpeg_compression	typeref:enum:v4l2_mpeg_compression::v4l2_mpeg_audiotype
+audioset	include/videodev2.h	/^	__u32	     audioset;		\/*  Associated audios (bitfield) *\/$/;"	m	struct:v4l2_input
+audioset	include/videodev2.h	/^	__u32	     audioset;		\/*  Associated audios (bitfield) *\/$/;"	m	struct:v4l2_output
+audmode	include/videodev2.h	/^	__u32			audmode;$/;"	m	struct:v4l2_tuner
+backward_dis	include/car_lib.h	/^void backward_dis(int x)$/;"	f
+backward_step	include/car_lib.h	/^void backward_step(int x)$/;"	f
+base	include/videodev2.h	/^	void*                   base;$/;"	m	struct:v4l2_framebuffer
+before	include/state_manage.h	/^	struct state_node *before, *next;$/;"	m	struct:state_node	typeref:struct:state_node::state_node
+bitmap	include/videodev2.h	/^	void			__user *bitmap;$/;"	m	struct:v4l2_window
+bounds	include/videodev2.h	/^	struct v4l2_rect        bounds;$/;"	m	struct:v4l2_cropcap	typeref:struct:v4l2_cropcap::v4l2_rect
+break_light	include/car_lib.h	/^void break_light(char* status)$/;"	f
+buf	driver/camera.c	/^	unsigned char *buf;$/;"	m	struct:videobuf_dev	file:
+buf	include/car_lib.h	/^unsigned char buf[3];$/;"	v
+buf	include/pxa_lib.h	/^			unsigned short *buf;$/;"	m	struct:pxa_video_buf::__anon3::__anon4
+bus_info	include/videodev2.h	/^	__u8	bus_info[32];	\/* "PCI:" + pci_name(pci_dev) *\/$/;"	m	struct:v4l2_capability
+busy_check	include/car_lib.h	/^char busy_check(void)$/;"	f
+buzzer_off	include/car_lib.h	/^void buzzer_off(void)$/;"	f
+buzzer_on	include/car_lib.h	/^void buzzer_on(void)$/;"	f
+buzzer_time	include/car_lib.h	/^char buzzer_time(char* time)$/;"	f
+bytesperline	include/videodev2.h	/^	__u32            	bytesperline;	\/* for padding, zero if unused *\/$/;"	m	struct:v4l2_pix_format
+bytesused	include/videodev2.h	/^	__u32			bytesused;$/;"	m	struct:v4l2_buffer
+c	include/videodev2.h	/^	struct v4l2_rect        c;$/;"	m	struct:v4l2_clip	typeref:struct:v4l2_clip::v4l2_rect
+c	include/videodev2.h	/^	struct v4l2_rect        c;$/;"	m	struct:v4l2_crop	typeref:struct:v4l2_crop::v4l2_rect
+cambuf	driver/camera.c	/^	struct	videobuf_dev	cambuf[VIDEOBUF_COUNT];$/;"	m	struct:pxa_camera	typeref:struct:pxa_camera::videobuf_dev	file:
+cambuf_to_ycbcr420	driver/camera.c	/^static void cambuf_to_ycbcr420(struct videobuf_dev* simple, $/;"	f	file:
+cambuf_to_ycbcr422	driver/camera.c	/^static void cambuf_to_ycbcr422(struct videobuf_dev* simple, $/;"	f	file:
+camera_close	driver/camera.c	/^int camera_close(int hcam)$/;"	f
+camera_config	driver/camera.c	/^int camera_config(int hcam,struct pxacam_setting* setting)$/;"	f
+camera_get_frame	driver/camera.c	/^struct pxa_video_buf*  camera_get_frame(int hcam)$/;"	f
+camera_off	include/car_lib.h	/^void camera_off(void)$/;"	f
+camera_on	include/car_lib.h	/^void camera_on(void)$/;"	f
+camera_open	driver/camera.c	/^int camera_open(char* camname,int sensor)$/;"	f
+camera_release_frame	driver/camera.c	/^int camera_release_frame(int hcam,struct pxa_video_buf* vidbuf)$/;"	f
+camera_start	driver/camera.c	/^int camera_start(int hcam)$/;"	f
+camera_stop	driver/camera.c	/^int camera_stop(int hcam)$/;"	f
+camera_straight	include/miso_car_lib.h	/^void camera_straight()$/;"	f
+camera_turn_left	include/miso_car_lib.h	/^void camera_turn_left()$/;"	f
+camera_turn_right	include/miso_car_lib.h	/^void camera_turn_right()$/;"	f
+camset	include/miso_camera.h	/^struct pxacam_setting camset;$/;"	v	typeref:struct:pxacam_setting
+capabilities	include/videodev2.h	/^	__u32	capabilities;	\/* Device capabilities *\/$/;"	m	struct:v4l2_capability
+capability	include/videodev2.h	/^	__u32			capability;$/;"	m	struct:v4l2_framebuffer
+capability	include/videodev2.h	/^	__u32			capability;$/;"	m	struct:v4l2_modulator
+capability	include/videodev2.h	/^	__u32			capability;$/;"	m	struct:v4l2_tuner
+capability	include/videodev2.h	/^	__u32		   capability;	  \/*  Supported modes *\/$/;"	m	struct:v4l2_captureparm
+capability	include/videodev2.h	/^	__u32		   capability;	 \/*  Supported modes *\/$/;"	m	struct:v4l2_outputparm
+capability	include/videodev2.h	/^	__u32	capability;$/;"	m	struct:v4l2_audio
+capability	include/videodev2.h	/^	__u32	capability;$/;"	m	struct:v4l2_audioout
+capture	include/car_lib.h	/^void capture(void)$/;"	f
+capture	include/videodev2.h	/^		struct v4l2_captureparm	capture;$/;"	m	union:v4l2_streamparm::__anon13	typeref:struct:v4l2_streamparm::__anon13::v4l2_captureparm
+capture_view	include/car_lib.h	/^void capture_view(char* cap)$/;"	f
+capturemode	include/videodev2.h	/^	__u32		   capturemode;	  \/*  Current mode *\/$/;"	m	struct:v4l2_captureparm
+car_connect	include/car_lib.h	/^int car_connect(void)$/;"	f
+car_state	include/state_manage.h	/^struct car_state$/;"	s
+card	include/videodev2.h	/^	__u8	card[32];	\/* i.e. "Hauppauge WinTV" *\/$/;"	m	struct:v4l2_capability
+cb	include/pxa_lib.h	/^			unsigned char *y,*cb,*cr;$/;"	m	struct:pxa_video_buf::__anon3::__anon5
+cbstep	include/pxa_lib.h	/^			unsigned int ystep,cbstep,crstep;$/;"	m	struct:pxa_video_buf::__anon3::__anon5
+change_line	include/miso_car_lib.h	/^void change_line(int v)$/;"	f
+check_distance	include/car_lib.h	/^char check_distance(int ch)$/;"	f
+check_mid_line	include/miso_camera.h	/^int check_mid_line(int mid_line,int under_line)$/;"	f
+check_speed_bump_inline	include/miso_camera.h	/^int check_speed_bump_inline(int w, int y)$/;"	f
+check_traffic_light	include/miso_camera.h	/^int check_traffic_light()$/;"	f
+chromakey	include/videodev2.h	/^	__u32			chromakey;$/;"	m	struct:v4l2_window
+clipcount	include/videodev2.h	/^	__u32			clipcount;$/;"	m	struct:v4l2_window
+clips	include/videodev2.h	/^	struct v4l2_clip	__user *clips;$/;"	m	struct:v4l2_window	typeref:struct:v4l2_window::__user
+closed_gops	include/videodev2.h	/^	__u32                           closed_gops:1;$/;"	m	struct:v4l2_mpeg_compression
+cm_angle	include/car_lib.h	/^char cm_angle(char* angle1, char* angle2)$/;"	f
+cm_handle	include/cam_values.h	/^static int cm_handle;$/;"	v
+cm_speed	include/car_lib.h	/^char cm_speed(char* speed1)$/;"	f
+cmd	include/car_lib.h	/^char cmd[100];$/;"	v
+cmd	include/videodev2.h	/^	__u32 cmd;$/;"	m	struct:v4l2_encoder_cmd
+color	include/pxa_camera_zl.h	/^	hst_color_type color;$/;"	m	struct:hst_context_s
+colorspace	include/videodev2.h	/^	enum v4l2_colorspace	colorspace;$/;"	m	struct:v4l2_pix_format	typeref:enum:v4l2_pix_format::v4l2_colorspace
+complete	include/car_lib.h	/^char complete(void)$/;"	f
+control_led	include/car_lib.h	/^void control_led(int mode, char* value)$/;"	f
+controls	include/videodev2.h	/^	struct v4l2_ext_control *controls;$/;"	m	struct:v4l2_ext_controls	typeref:struct:v4l2_ext_controls::v4l2_ext_control
+count	include/videodev2.h	/^	__u32			count;$/;"	m	struct:v4l2_requestbuffers
+count	include/videodev2.h	/^	__u32	count[2];$/;"	m	struct:v4l2_vbi_format
+count	include/videodev2.h	/^	__u32 count;$/;"	m	struct:v4l2_ext_controls
+cr	include/pxa_lib.h	/^			unsigned char *y,*cb,*cr;$/;"	m	struct:pxa_video_buf::__anon3::__anon5
+crstep	include/pxa_lib.h	/^			unsigned int ystep,cbstep,crstep;$/;"	m	struct:pxa_video_buf::__anon3::__anon5
+ctrl_class	include/videodev2.h	/^	__u32 ctrl_class;$/;"	m	struct:v4l2_ext_controls
+data	include/videodev2.h	/^			__u32 data[8];$/;"	m	struct:v4l2_encoder_cmd::__anon10::__anon11
+data	include/videodev2.h	/^	__u8    data[48];$/;"	m	struct:v4l2_sliced_vbi_data
+default_value	include/videodev2.h	/^	__s32		     default_value;$/;"	m	struct:v4l2_queryctrl
+defrect	include/videodev2.h	/^	struct v4l2_rect        defrect;$/;"	m	struct:v4l2_cropcap	typeref:struct:v4l2_cropcap::v4l2_rect
+denominator	include/videodev2.h	/^	__u32   denominator;$/;"	m	struct:v4l2_fract
+description	include/videodev2.h	/^	__u8		    description[32];   \/* Description string *\/$/;"	m	struct:v4l2_fmtdesc
+dim	include/gaussian_filter.h	/^int dim = (((int)MAX(3.0, 2*4*SIGMA+1.0)%2==0)? ((int)MAX(3.0, 2*4*SIGMA+1.0)+1):((int)MAX(3.0, 2*4*SIGMA+1.0)));$/;"	v
+dim2	include/gaussian_filter.h	/^int dim2 = (int)(MAX(3.0, 2*4*SIGMA+1.0)\/2);$/;"	v
+dir_count	include/miso_camera.h	/^int dir_count = 0;$/;"	v
+direct	include/miso_camera.h	/^int direct = NONE;$/;"	v
+direct_test	main.c	/^void direct_test()$/;"	f
+discrete	include/videodev2.h	/^		struct v4l2_fract		discrete;$/;"	m	union:v4l2_frmivalenum::__anon7	typeref:struct:v4l2_frmivalenum::__anon7::v4l2_fract
+discrete	include/videodev2.h	/^		struct v4l2_frmsize_discrete	discrete;$/;"	m	union:v4l2_frmsizeenum::__anon6	typeref:struct:v4l2_frmsizeenum::__anon6::v4l2_frmsize_discrete
+disp_inv_down	include/car_lib.h	/^void disp_inv_down(void)$/;"	f
+disp_inv_up	include/car_lib.h	/^void disp_inv_up(void)$/;"	f
+dist	include/miso_values.h	/^	int dist;$/;"	m	struct:image_data
+distance	include/car_lib.h	/^char distance(char* dis1, char* dis2)$/;"	f
+distance_check	include/distance_check.h	/^void* distance_check(void* data)$/;"	f
+distance_reset	include/car_lib.h	/^void distance_reset(void)$/;"	f
+distance_set	include/miso_car_lib.h	/^void distance_set(int dis)$/;"	f
+dm_angle	include/car_lib.h	/^char dm_angle(char* angle1, char* angle2)$/;"	f
+dm_speed	include/car_lib.h	/^char dm_speed(char* speed)$/;"	f
+drive	main.c	/^void drive(void)$/;"	f
+driver	include/videodev2.h	/^	__u8	driver[16];	\/* i.e. "bttv" *\/$/;"	m	struct:v4l2_capability
+entries	include/videodev2.h	/^	__u32 entries;$/;"	m	struct:v4l2_enc_idx
+entries_cap	include/videodev2.h	/^	__u32 entries_cap;$/;"	m	struct:v4l2_enc_idx
+entry	include/videodev2.h	/^	struct v4l2_enc_idx_entry entry[V4L2_ENC_IDX_ENTRIES];$/;"	m	struct:v4l2_enc_idx	typeref:struct:v4l2_enc_idx::v4l2_enc_idx_entry
+error_idx	include/videodev2.h	/^	__u32 error_idx;$/;"	m	struct:v4l2_ext_controls
+exit_camera	include/miso_camera.h	/^int exit_camera(int handle){$/;"	f
+ext_video_buf	driver/camera.c	/^struct ext_video_buf{$/;"	s	file:
+extendedmode	include/videodev2.h	/^	__u32		   extendedmode;  \/*  Driver-specific extensions *\/$/;"	m	struct:v4l2_captureparm
+extendedmode	include/videodev2.h	/^	__u32		   extendedmode; \/*  Driver-specific extensions *\/$/;"	m	struct:v4l2_outputparm
+fd	driver/overlay2.c	/^	int	fd;$/;"	m	struct:overlay2_object	file:
+fd	include/cam_values.h	/^static int fd;$/;"	v
+field	include/videodev2.h	/^	__u32   field;          \/* 0: first field, 1: second field *\/$/;"	m	struct:v4l2_sliced_vbi_data
+field	include/videodev2.h	/^	enum v4l2_field		field;$/;"	m	struct:v4l2_buffer	typeref:enum:v4l2_buffer::v4l2_field
+field	include/videodev2.h	/^	enum v4l2_field  	field;$/;"	m	struct:v4l2_pix_format	typeref:enum:v4l2_pix_format::v4l2_field
+field	include/videodev2.h	/^	enum v4l2_field  	field;$/;"	m	struct:v4l2_window	typeref:enum:v4l2_window::v4l2_field
+find_in_point	include/miso_camera.h	/^int find_in_point(int rl_info, int i, int offset)$/;"	f
+find_inline	include/miso_camera.h	/^int find_inline(int rl_info, int y, int w)$/;"	f
+find_left	include/cam_values.h	/^int find_left = FL_NONE, find_right = FL_NONE;$/;"	v
+find_out_end_point	include/miso_camera.h	/^int find_out_end_point(int i, int offset)$/;"	f
+find_outline	include/miso_camera.h	/^int find_outline(int y, int w)$/;"	f
+find_right	include/cam_values.h	/^int find_left = FL_NONE, find_right = FL_NONE;$/;"	v
+flags	include/videodev2.h	/^	__u32			flags;$/;"	m	struct:v4l2_buffer
+flags	include/videodev2.h	/^	__u32			flags;$/;"	m	struct:v4l2_framebuffer
+flags	include/videodev2.h	/^	__u32	flags;			\/* V4L2_VBI_* *\/$/;"	m	struct:v4l2_vbi_format
+flags	include/videodev2.h	/^	__u32	flags;$/;"	m	struct:v4l2_timecode
+flags	include/videodev2.h	/^	__u32                flags;$/;"	m	struct:v4l2_queryctrl
+flags	include/videodev2.h	/^	__u32               flags;$/;"	m	struct:v4l2_fmtdesc
+flags	include/videodev2.h	/^	__u32 flags;$/;"	m	struct:v4l2_enc_idx_entry
+flags	include/videodev2.h	/^	__u32 flags;$/;"	m	struct:v4l2_encoder_cmd
+fmt	include/videodev2.h	/^	struct v4l2_pix_format	fmt;$/;"	m	struct:v4l2_framebuffer	typeref:struct:v4l2_framebuffer::v4l2_pix_format
+fmt	include/videodev2.h	/^	} fmt;$/;"	m	struct:v4l2_format	typeref:union:v4l2_format::__anon12
+fog_light	include/car_lib.h	/^void fog_light(char* status)$/;"	f
+format	driver/camera.c	/^	enum	pxavid_format format;$/;"	m	struct:pxa_camera	typeref:enum:pxa_camera::pxavid_format	file:
+format	driver/overlay2.c	/^	enum	pxavid_format format;$/;"	m	struct:overlay2_object	typeref:enum:overlay2_object::pxavid_format	file:
+format	include/miso_camera.h	/^	enum    pxavid_format format;$/;"	m	struct:pxa_camera	typeref:enum:pxa_camera::pxavid_format
+format	include/pxa_lib.h	/^	enum	pxavid_format format;$/;"	m	struct:pxacam_setting	typeref:enum:pxacam_setting::pxavid_format
+format	include/pxa_lib.h	/^	enum pxavid_format format;$/;"	m	struct:pxa_video_buf	typeref:enum:pxa_video_buf::pxavid_format
+forward_dis	include/car_lib.h	/^void forward_dis(void)$/;"	f
+forward_step	include/car_lib.h	/^void forward_step(void)$/;"	f
+framelines	include/videodev2.h	/^	__u32		     framelines;$/;"	m	struct:v4l2_standard
+frameperiod	include/videodev2.h	/^	struct v4l2_fract    frameperiod; \/* Frames, not fields *\/$/;"	m	struct:v4l2_standard	typeref:struct:v4l2_standard::v4l2_fract
+frames	include/videodev2.h	/^	__u8	frames;$/;"	m	struct:v4l2_timecode
+frequency	include/videodev2.h	/^	__u32		      frequency;$/;"	m	struct:v4l2_frequency
+front_light	include/car_lib.h	/^void front_light(char* status)$/;"	f
+g_angle	include/miso_car_lib.h	/^static int g_angle = DM_STRAIGHT;$/;"	v
+g_drive_flag	include/miso_values.h	/^static int g_drive_flag = DF_STR;$/;"	v
+g_image_flag	include/miso_values.h	/^static int g_image_flag = IF_DRIVE;$/;"	v
+g_sleep	include/miso_car_lib.h	/^static char g_sleep = FALSE;$/;"	v
+g_sp	include/miso_car_lib.h	/^static int g_sp = 0;$/;"	v
+g_state_list	include/state_manage.h	/^}g_state_list;$/;"	v	typeref:struct:state_list
+gaussian_filter	include/gaussian_filter.h	/^void gaussian_filter()$/;"	f
+get_road_angle	include/miso_camera.h	/^int get_road_angle( struct p_point a, struct p_point b)$/;"	f
+get_width_scan_point	include/miso_camera.h	/^int get_width_scan_point()$/;"	f
+handle	driver/camera.c	/^	int	handle;$/;"	m	struct:pxa_camera	file:
+handle	include/miso_camera.h	/^	int handle;$/;"	m	struct:pxa_camera
+head	include/state_manage.h	/^	struct state_node* head;$/;"	m	struct:state_list	typeref:struct:state_list::state_node
+height	driver/camera.c	/^	int	height;$/;"	m	struct:pxa_camera	file:
+height	include/miso_camera.h	/^	int height;$/;"	m	struct:pxa_camera
+height	include/pxa_lib.h	/^	int	height;$/;"	m	struct:pxacam_setting
+height	include/pxa_lib.h	/^	int width,height;$/;"	m	struct:pxa_rect
+height	include/pxa_lib.h	/^	int width,height;$/;"	m	struct:pxa_video_buf
+height	include/videodev2.h	/^	__s32   height;$/;"	m	struct:v4l2_rect
+height	include/videodev2.h	/^	__u32			height;		\/* Frame height *\/$/;"	m	struct:v4l2_frmivalenum
+height	include/videodev2.h	/^	__u32			height;		\/* Frame height [pixel] *\/$/;"	m	struct:v4l2_frmsize_discrete
+height	include/videodev2.h	/^	__u32			height;$/;"	m	struct:v4l2_pix_format
+hours	include/videodev2.h	/^	__u8	hours;$/;"	m	struct:v4l2_timecode
+hst	include/pxa_camera_zl.h	/^	unsigned short *hst;$/;"	m	struct:hst_context_s
+hst_color_type	include/pxa_camera_zl.h	/^} hst_color_type;$/;"	t	typeref:enum:__anon1
+hst_context_s	include/pxa_camera_zl.h	/^struct hst_context_s{$/;"	s
+id	include/videodev2.h	/^	__u32		     id;$/;"	m	struct:v4l2_control
+id	include/videodev2.h	/^	__u32		     id;$/;"	m	struct:v4l2_queryctrl
+id	include/videodev2.h	/^	__u32		id;$/;"	m	struct:v4l2_querymenu
+id	include/videodev2.h	/^	__u32   id;$/;"	m	struct:v4l2_sliced_vbi_data
+id	include/videodev2.h	/^	__u32 id;$/;"	m	struct:v4l2_ext_control
+id	include/videodev2.h	/^	v4l2_std_id          id;$/;"	m	struct:v4l2_standard
+image_data	include/miso_values.h	/^struct image_data$/;"	s
+img_buf_y	include/cam_values.h	/^int img_buf_y[MAXHEIGHT][MAXWIDTH];$/;"	v
+index	include/videodev2.h	/^	__u32			index;		\/* Frame format index *\/$/;"	m	struct:v4l2_frmivalenum
+index	include/videodev2.h	/^	__u32			index;		\/* Frame size number *\/$/;"	m	struct:v4l2_frmsizeenum
+index	include/videodev2.h	/^	__u32			index;$/;"	m	struct:v4l2_buffer
+index	include/videodev2.h	/^	__u32			index;$/;"	m	struct:v4l2_modulator
+index	include/videodev2.h	/^	__u32		     index;$/;"	m	struct:v4l2_standard
+index	include/videodev2.h	/^	__u32		    index;             \/* Format number      *\/$/;"	m	struct:v4l2_fmtdesc
+index	include/videodev2.h	/^	__u32		index;$/;"	m	struct:v4l2_querymenu
+index	include/videodev2.h	/^	__u32	     index;		\/*  Which input *\/$/;"	m	struct:v4l2_input
+index	include/videodev2.h	/^	__u32	     index;		\/*  Which output *\/$/;"	m	struct:v4l2_output
+index	include/videodev2.h	/^	__u32	index;$/;"	m	struct:v4l2_audio
+index	include/videodev2.h	/^	__u32	index;$/;"	m	struct:v4l2_audioout
+index	include/videodev2.h	/^	__u32                   index;$/;"	m	struct:v4l2_tuner
+info_scan	include/car_lib.h	/^char info_scan(void)$/;"	f
+info_write	include/car_lib.h	/^void info_write(char* id)$/;"	f
+init_camera	include/miso_camera.h	/^int init_camera(){$/;"	f
+init_drive	main.c	/^void init_drive(){$/;"	f
+init_point	include/miso_camera.h	/^void init_point()$/;"	f
+init_values	include/miso_camera.h	/^void init_values(int handle)$/;"	f
+input	include/videodev2.h	/^	__u32			input;$/;"	m	struct:v4l2_buffer
+io_size	include/videodev2.h	/^	__u32   io_size;$/;"	m	struct:v4l2_sliced_vbi_format
+is_left_turn	include/miso_camera.h	/^int is_left_turn(int x, int y)$/;"	f
+jpeg_markers	include/videodev2.h	/^	__u32 jpeg_markers;     \/* Which markers should go into the JPEG$/;"	m	struct:v4l2_jpegcompression
+keyDev	include/key_handler.h	/^static char keyDev[] ="\/dev\/KEYPAD";$/;"	v
+keyFD	include/key_handler.h	/^static int keyFD = -1;$/;"	v
+keyState	include/key_handler.h	/^static char keyState[3]={OFF,OFF,OFF};$/;"	v
+key_handler	include/key_handler.h	/^void* key_handler(void* data)$/;"	f
+lcd_disp_num	include/car_lib.h	/^void lcd_disp_num(int num)$/;"	f
+lcd_disp_pic	include/car_lib.h	/^void lcd_disp_pic(char* pic)$/;"	f
+left	include/videodev2.h	/^	__s32   left;$/;"	m	struct:v4l2_rect
+left_line_check	include/miso_camera.h	/^int left_line_check(int i)$/;"	f
+len	include/pxa_lib.h	/^			unsigned int len;$/;"	m	struct:pxa_video_buf::__anon3::__anon4
+length	driver/camera.c	/^	unsigned int length;$/;"	m	struct:videobuf_dev	file:
+length	include/videodev2.h	/^	__u32			length;$/;"	m	struct:v4l2_buffer
+length	include/videodev2.h	/^	__u32 length;$/;"	m	struct:v4l2_enc_idx_entry
+limit	include/gaussian_filter.h	/^unsigned char limit(double a)$/;"	f
+line	include/videodev2.h	/^	__u32   line;           \/* 1-23 *\/$/;"	m	struct:v4l2_sliced_vbi_data
+line_check	include/miso_camera.h	/^struct image_data* line_check(int handle)$/;"	f
+line_start	include/car_lib.h	/^void line_start(void)$/;"	f
+line_stop	include/car_lib.h	/^void line_stop(void)$/;"	f
+lm_break	include/car_lib.h	/^char lm_break(char* brea)$/;"	f
+lm_speed	include/car_lib.h	/^char lm_speed(char* speed1, char* speed2)$/;"	f
+lm_step	include/car_lib.h	/^char lm_step(char* step1, char* step2)$/;"	f
+load_car_state_	include/state_manage.h	/^struct car_state** load_car_state_() \/\/ 배열 동적 할당. $/;"	f
+m	include/videodev2.h	/^	} m;$/;"	m	struct:v4l2_buffer	typeref:union:v4l2_buffer::__anon8
+main	main.c	/^int main(void)$/;"	f
+map	driver/overlay2.c	/^	unsigned char*	map;$/;"	m	struct:overlay2_object	file:
+match_chip	include/videodev2.h	/^	__u32 match_chip; \/* Match this chip, meaning determined by match_type *\/$/;"	m	struct:v4l2_register
+match_type	include/videodev2.h	/^	__u32 match_type; \/* Match type *\/$/;"	m	struct:v4l2_register
+max	include/videodev2.h	/^	__u32			max;$/;"	m	struct:v4l2_bitrate
+max	include/videodev2.h	/^	struct v4l2_fract	max;		\/* Maximum frame interval [s] *\/$/;"	m	struct:v4l2_frmival_stepwise	typeref:struct:v4l2_frmival_stepwise::v4l2_fract
+max_height	include/videodev2.h	/^	__u32			max_height;	\/* Maximum frame height [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+max_width	include/videodev2.h	/^	__u32			max_width;	\/* Maximum frame width [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+maximum	include/videodev2.h	/^	__s32		     maximum;$/;"	m	struct:v4l2_queryctrl
+memory	include/videodev2.h	/^	enum v4l2_memory        memory;$/;"	m	struct:v4l2_buffer	typeref:enum:v4l2_buffer::v4l2_memory
+memory	include/videodev2.h	/^	enum v4l2_memory        memory;$/;"	m	struct:v4l2_requestbuffers	typeref:enum:v4l2_requestbuffers::v4l2_memory
+min	include/videodev2.h	/^	__u32			min;$/;"	m	struct:v4l2_bitrate
+min	include/videodev2.h	/^	struct v4l2_fract	min;		\/* Minimum frame interval [s] *\/$/;"	m	struct:v4l2_frmival_stepwise	typeref:struct:v4l2_frmival_stepwise::v4l2_fract
+min_height	include/videodev2.h	/^	__u32			min_height;	\/* Minimum frame height [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+min_width	include/videodev2.h	/^	__u32			min_width;	\/* Minimum frame width [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+minimum	include/videodev2.h	/^	__s32		     minimum;	\/* Note signedness *\/$/;"	m	struct:v4l2_queryctrl
+minutes	include/videodev2.h	/^	__u8	minutes;$/;"	m	struct:v4l2_timecode
+mode	driver/camera.c	/^	int	mode;$/;"	m	struct:pxa_camera	file:
+mode	include/miso_camera.h	/^	int mode;$/;"	m	struct:pxa_camera
+mode	include/pxa_lib.h	/^	int	mode;$/;"	m	struct:pxacam_setting
+mode	include/videodev2.h	/^	__u32	mode;$/;"	m	struct:v4l2_audio
+mode	include/videodev2.h	/^	__u32	mode;$/;"	m	struct:v4l2_audioout
+mode	include/videodev2.h	/^	enum v4l2_bitrate_mode	mode;$/;"	m	struct:v4l2_bitrate	typeref:enum:v4l2_bitrate::v4l2_bitrate_mode
+modulator	include/videodev2.h	/^	__u32	     modulator;         \/*  Associated modulator *\/$/;"	m	struct:v4l2_output
+motor_hold	include/car_lib.h	/^void motor_hold(void)$/;"	f
+motor_hold_cancel	include/car_lib.h	/^void motor_hold_cancel(void)$/;"	f
+name	include/videodev2.h	/^	__u8			name[32];$/;"	m	struct:v4l2_modulator
+name	include/videodev2.h	/^	__u8			name[32];$/;"	m	struct:v4l2_tuner
+name	include/videodev2.h	/^	__u8		     name[24];$/;"	m	struct:v4l2_standard
+name	include/videodev2.h	/^	__u8		     name[32];	\/* Whatever *\/$/;"	m	struct:v4l2_queryctrl
+name	include/videodev2.h	/^	__u8		name[32];	\/* Whatever *\/$/;"	m	struct:v4l2_querymenu
+name	include/videodev2.h	/^	__u8	     name[32];		\/*  Label *\/$/;"	m	struct:v4l2_input
+name	include/videodev2.h	/^	__u8	     name[32];		\/*  Label *\/$/;"	m	struct:v4l2_output
+name	include/videodev2.h	/^	__u8	name[32];$/;"	m	struct:v4l2_audio
+name	include/videodev2.h	/^	__u8	name[32];$/;"	m	struct:v4l2_audioout
+next	include/state_manage.h	/^	struct state_node *before, *next;$/;"	m	struct:state_node	typeref:struct:state_node::
+next	include/videodev2.h	/^	struct v4l2_clip	__user *next;$/;"	m	struct:v4l2_clip	typeref:struct:v4l2_clip::__user
+numerator	include/videodev2.h	/^	__u32   numerator;$/;"	m	struct:v4l2_fract
+offset	include/videodev2.h	/^		__u32           offset;$/;"	m	union:v4l2_buffer::__anon8
+offset	include/videodev2.h	/^	__u32	offset;$/;"	m	struct:v4l2_vbi_format
+offset	include/videodev2.h	/^	__u64 offset;$/;"	m	struct:v4l2_enc_idx_entry
+output	include/videodev2.h	/^		struct v4l2_outputparm	output;$/;"	m	union:v4l2_streamparm::__anon13	typeref:struct:v4l2_streamparm::__anon13::v4l2_outputparm
+outputmode	include/videodev2.h	/^	__u32		   outputmode;	 \/*  Current mode *\/$/;"	m	struct:v4l2_outputparm
+overlay2_close	driver/overlay2.c	/^void overlay2_close(int handle)$/;"	f
+overlay2_getbuf	driver/overlay2.c	/^int overlay2_getbuf(int handle, struct pxa_video_buf* vidbuf)$/;"	f
+overlay2_object	driver/overlay2.c	/^struct overlay2_object{$/;"	s	file:
+overlay2_open	driver/overlay2.c	/^int overlay2_open(char* dev, enum pxavid_format format, struct pxa_rect* rect, int w, int h, int w_off, int h_off)$/;"	f
+overlay2_write	driver/overlay2.c	/^int overlay2_write(int handle, struct pxa_video_buf* srcbuf)$/;"	f
+p_point	include/cam_values.h	/^struct p_point$/;"	s
+parm	include/videodev2.h	/^	} parm;$/;"	m	struct:v4l2_streamparm	typeref:union:v4l2_streamparm::__anon13
+pix	include/videodev2.h	/^		struct v4l2_pix_format		pix;     \/\/ V4L2_BUF_TYPE_VIDEO_CAPTURE$/;"	m	union:v4l2_format::__anon12	typeref:struct:v4l2_format::__anon12::v4l2_pix_format
+pixel_format	include/videodev2.h	/^	__u32			pixel_format;	\/* Pixel format *\/$/;"	m	struct:v4l2_frmivalenum
+pixel_format	include/videodev2.h	/^	__u32			pixel_format;	\/* Pixel format *\/$/;"	m	struct:v4l2_frmsizeenum
+pixelaspect	include/videodev2.h	/^	struct v4l2_fract       pixelaspect;$/;"	m	struct:v4l2_cropcap	typeref:struct:v4l2_cropcap::v4l2_fract
+pixelformat	include/videodev2.h	/^	__u32			pixelformat;$/;"	m	struct:v4l2_pix_format
+pixelformat	include/videodev2.h	/^	__u32		    pixelformat;       \/* Format fourcc      *\/$/;"	m	struct:v4l2_fmtdesc
+point	include/key_handler.h	/^int point;$/;"	v
+print_screen_cb	include/miso_camera.h	/^void print_screen_cb()$/;"	f
+print_screen_color	include/miso_camera.h	/^void print_screen_color()$/;"	f
+print_screen_cr	include/miso_camera.h	/^void print_screen_cr()$/;"	f
+print_screen_org	include/miso_camera.h	/^void print_screen_org()$/;"	f
+print_screen_y	include/miso_camera.h	/^void print_screen_y()$/;"	f
+priv	include/videodev2.h	/^	__u32			priv;		\/* private data, depends on pixelformat *\/$/;"	m	struct:v4l2_pix_format
+ps_kill	include/car_lib.h	/^void ps_kill(char* kill)$/;"	f
+ps_size	include/videodev2.h	/^	__u16				ps_size;$/;"	m	struct:v4l2_mpeg_compression
+pt	include/cam_values.h	/^struct p_point pt[PT_SIZE]; \/\/ 잡힌 점 $/;"	v	typeref:struct:p_point
+pts	include/videodev2.h	/^	__u64 pts;$/;"	m	struct:v4l2_enc_idx_entry
+pulldown	include/videodev2.h	/^	__u32                           pulldown:1;$/;"	m	struct:v4l2_mpeg_compression
+pxa_camera	driver/camera.c	/^struct pxa_camera{$/;"	s	file:
+pxa_camera	include/miso_camera.h	/^struct pxa_camera$/;"	s
+pxa_rect	include/pxa_lib.h	/^struct pxa_rect{$/;"	s
+pxa_video_buf	include/pxa_lib.h	/^struct pxa_video_buf{$/;"	s
+pxabuf	driver/camera.c	/^	struct pxa_video_buf	pxabuf;$/;"	m	struct:ext_video_buf	typeref:struct:ext_video_buf::pxa_video_buf	file:
+pxacam_setting	include/pxa_lib.h	/^struct pxacam_setting {$/;"	s
+pxavid_format	include/pxa_lib.h	/^enum pxavid_format{$/;"	g
+pxavid_invalid	include/pxa_lib.h	/^	pxavid_invalid = 0,$/;"	e	enum:pxavid_format
+pxavid_rggb10	include/pxa_lib.h	/^	pxavid_rggb10,$/;"	e	enum:pxavid_format
+pxavid_rggb8	include/pxa_lib.h	/^	pxavid_rggb8,$/;"	e	enum:pxavid_format
+pxavid_ycbcr420	include/pxa_lib.h	/^	pxavid_ycbcr420,$/;"	e	enum:pxavid_format
+pxavid_ycbcr422	include/pxa_lib.h	/^	pxavid_ycbcr422,$/;"	e	enum:pxavid_format
+quality	include/videodev2.h	/^	int quality;$/;"	m	struct:v4l2_jpegcompression
+rangehigh	include/videodev2.h	/^	__u32			rangehigh;$/;"	m	struct:v4l2_modulator
+rangehigh	include/videodev2.h	/^	__u32			rangehigh;$/;"	m	struct:v4l2_tuner
+rangelow	include/videodev2.h	/^	__u32			rangelow;$/;"	m	struct:v4l2_modulator
+rangelow	include/videodev2.h	/^	__u32			rangelow;$/;"	m	struct:v4l2_tuner
+raw	include/videodev2.h	/^		} raw;$/;"	m	union:v4l2_encoder_cmd::__anon10	typeref:struct:v4l2_encoder_cmd::__anon10::__anon11
+raw_data	include/videodev2.h	/^		__u8	raw_data[200];                   \/\/ user-defined$/;"	m	union:v4l2_format::__anon12
+raw_data	include/videodev2.h	/^		__u8	raw_data[200];  \/* user-defined *\/$/;"	m	union:v4l2_streamparm::__anon13
+read_buf	include/car_lib.h	/^unsigned char read_buf[3];$/;"	v
+read_sensor	include/car_lib.h	/^int read_sensor(void)$/;"	f
+read_sensor_while	include/car_lib.h	/^char read_sensor_while(void)$/;"	f
+read_speed	include/car_lib.h	/^char read_speed(void)$/;"	f
+readbuffers	include/videodev2.h	/^	__u32              readbuffers;   \/*  # of buffers for read *\/$/;"	m	struct:v4l2_captureparm
+rear_sensor_stop	include/car_lib.h	/^void rear_sensor_stop(void)$/;"	f
+reduction	include/car_lib.h	/^char reduction(char* reduc)$/;"	f
+ref_count	driver/camera.c	/^	int	ref_count;$/;"	m	struct:pxa_camera	file:
+ref_count	include/miso_camera.h	/^	int ref_count;$/;"	m	struct:pxa_camera
+reg	include/videodev2.h	/^	__u64 reg;$/;"	m	struct:v4l2_register
+reg_set_s	include/pxa_camera_zl.h	/^struct reg_set_s {$/;"	s
+reserved	include/videodev2.h	/^		void *reserved;$/;"	m	union:v4l2_ext_control::__anon9
+reserved	include/videodev2.h	/^	__u32			reserved;$/;"	m	struct:v4l2_buffer
+reserved	include/videodev2.h	/^	__u32			reserved[2];$/;"	m	struct:v4l2_requestbuffers
+reserved	include/videodev2.h	/^	__u32			reserved[4];$/;"	m	struct:v4l2_modulator
+reserved	include/videodev2.h	/^	__u32			reserved[4];$/;"	m	struct:v4l2_tuner
+reserved	include/videodev2.h	/^	__u32		      reserved[8];$/;"	m	struct:v4l2_frequency
+reserved	include/videodev2.h	/^	__u32		     reserved[2];$/;"	m	struct:v4l2_queryctrl
+reserved	include/videodev2.h	/^	__u32		     reserved[4];$/;"	m	struct:v4l2_standard
+reserved	include/videodev2.h	/^	__u32		    reserved[4];$/;"	m	struct:v4l2_fmtdesc
+reserved	include/videodev2.h	/^	__u32		   reserved[4];$/;"	m	struct:v4l2_captureparm
+reserved	include/videodev2.h	/^	__u32		   reserved[4];$/;"	m	struct:v4l2_outputparm
+reserved	include/videodev2.h	/^	__u32		reserved;$/;"	m	struct:v4l2_querymenu
+reserved	include/videodev2.h	/^	__u32	     reserved[4];$/;"	m	struct:v4l2_input
+reserved	include/videodev2.h	/^	__u32	     reserved[4];$/;"	m	struct:v4l2_output
+reserved	include/videodev2.h	/^	__u32	reserved[2];			\/* Reserved space for future use *\/$/;"	m	struct:v4l2_frmivalenum
+reserved	include/videodev2.h	/^	__u32	reserved[2];		\/* must be zero *\/$/;"	m	struct:v4l2_vbi_format
+reserved	include/videodev2.h	/^	__u32	reserved[2];$/;"	m	struct:v4l2_audio
+reserved	include/videodev2.h	/^	__u32	reserved[2];$/;"	m	struct:v4l2_audioout
+reserved	include/videodev2.h	/^	__u32	reserved[4];$/;"	m	struct:v4l2_capability
+reserved	include/videodev2.h	/^	__u32   reserved;       \/* must be 0 *\/$/;"	m	struct:v4l2_sliced_vbi_data
+reserved	include/videodev2.h	/^	__u32   reserved[2];			\/* Reserved space for future use *\/$/;"	m	struct:v4l2_frmsizeenum
+reserved	include/videodev2.h	/^	__u32   reserved[2];            \/* must be zero *\/$/;"	m	struct:v4l2_sliced_vbi_format
+reserved	include/videodev2.h	/^	__u32   reserved[3];    \/* must be 0 *\/$/;"	m	struct:v4l2_sliced_vbi_cap
+reserved	include/videodev2.h	/^	__u32 reserved[2];$/;"	m	struct:v4l2_enc_idx_entry
+reserved	include/videodev2.h	/^	__u32 reserved[2];$/;"	m	struct:v4l2_ext_controls
+reserved	include/videodev2.h	/^	__u32 reserved[4];$/;"	m	struct:v4l2_enc_idx
+reserved2	include/videodev2.h	/^	__u32 reserved2[2];$/;"	m	struct:v4l2_ext_control
+reserved_1	include/videodev2.h	/^	__u16				reserved_1;    \/* align *\/$/;"	m	struct:v4l2_mpeg_compression
+reserved_2	include/videodev2.h	/^	__u8                            reserved_2[3]; \/* align *\/$/;"	m	struct:v4l2_mpeg_compression
+reserved_3	include/videodev2.h	/^	__u8                            reserved_3[3]; \/* align *\/$/;"	m	struct:v4l2_mpeg_compression
+reserved_4	include/videodev2.h	/^	__u32                           reserved_4:30; \/* align *\/$/;"	m	struct:v4l2_mpeg_compression
+reserved_5	include/videodev2.h	/^	__u32				reserved_5[8];$/;"	m	struct:v4l2_mpeg_compression
+rggb10	include/pxa_lib.h	/^		}rggb10;$/;"	m	union:pxa_video_buf::__anon3	typeref:struct:pxa_video_buf::__anon3::__anon4
+right_line_check	include/miso_camera.h	/^int right_line_check(int i)$/;"	f
+rxbuf	include/car_lib.h	/^unsigned short rxbuf[4];$/;"	v
+rxsubchans	include/videodev2.h	/^	__u32			rxsubchans;$/;"	m	struct:v4l2_tuner
+sample_format	include/videodev2.h	/^	__u32	sample_format;		\/* V4L2_PIX_FMT_* *\/$/;"	m	struct:v4l2_vbi_format
+samples_per_line	include/videodev2.h	/^	__u32	samples_per_line;$/;"	m	struct:v4l2_vbi_format
+sampling_rate	include/videodev2.h	/^	__u32	sampling_rate;		\/* in 1 Hz *\/$/;"	m	struct:v4l2_vbi_format
+save_car_state	include/state_manage.h	/^void save_car_state()$/;"	f
+seconds	include/videodev2.h	/^	__u8	seconds;$/;"	m	struct:v4l2_timecode
+sensor	driver/camera.c	/^	int	sensor;$/;"	m	struct:pxa_camera	file:
+sensor	include/miso_camera.h	/^	int sensor;$/;"	m	struct:pxa_camera
+sensor_handler	include/sensor_handler.h	/^void* sensor_handler(void* data)$/;"	f
+sequence	include/videodev2.h	/^	__u32			sequence;$/;"	m	struct:v4l2_buffer
+service_lines	include/videodev2.h	/^	__u16   service_lines[2][24];$/;"	m	struct:v4l2_sliced_vbi_cap
+service_lines	include/videodev2.h	/^	__u16   service_lines[2][24];$/;"	m	struct:v4l2_sliced_vbi_format
+service_set	include/videodev2.h	/^	__u16   service_set;$/;"	m	struct:v4l2_sliced_vbi_cap
+service_set	include/videodev2.h	/^	__u16   service_set;$/;"	m	struct:v4l2_sliced_vbi_format
+set_angle	include/miso_car_lib.h	/^void set_angle(int angle)$/;"	f
+set_end_point	include/miso_camera.h	/^int set_end_point(int rl_info, struct p_point* pt_tmp, int flag)$/;"	f
+sighandler	include/miso_camera.h	/^void sighandler(int signo)$/;"	f
+signal	include/videodev2.h	/^	__s32			signal;$/;"	m	struct:v4l2_tuner
+size	include/pxa_camera_zl.h	/^	unsigned int size;$/;"	m	struct:hst_context_s
+size	include/state_manage.h	/^	int size;$/;"	m	struct:state_list
+sizeimage	include/videodev2.h	/^	__u32          		sizeimage;$/;"	m	struct:v4l2_pix_format
+sliced	include/videodev2.h	/^		struct v4l2_sliced_vbi_format	sliced;  \/\/ V4L2_BUF_TYPE_SLICED_VBI_CAPTURE$/;"	m	union:v4l2_format::__anon12	typeref:struct:v4l2_format::__anon12::v4l2_sliced_vbi_format
+smem_len	driver/overlay2.c	/^	int	smem_len;$/;"	m	struct:overlay2_object	file:
+sound_play	include/car_lib.h	/^void sound_play(char* sound)$/;"	f
+speed_down	include/miso_car_lib.h	/^void speed_down(int v)$/;"	f
+speed_set	include/miso_car_lib.h	/^void speed_set(int sp)$/;"	f
+speed_up	include/miso_car_lib.h	/^void speed_up(int v)$/;"	f
+st_bitrate	include/videodev2.h	/^	struct v4l2_bitrate		st_bitrate;$/;"	m	struct:v4l2_mpeg_compression	typeref:struct:v4l2_mpeg_compression::v4l2_bitrate
+st_type	include/videodev2.h	/^	enum v4l2_mpeg_streamtype	st_type;$/;"	m	struct:v4l2_mpeg_compression	typeref:enum:v4l2_mpeg_compression::v4l2_mpeg_streamtype
+start	include/videodev2.h	/^	__s32	start[2];$/;"	m	struct:v4l2_vbi_format
+state	include/state_manage.h	/^	struct car_state state;$/;"	m	struct:state_node	typeref:struct:state_node::car_state
+state_array	include/state_manage.h	/^}* state_array;$/;"	v	typeref:struct:car_state
+state_list	include/state_manage.h	/^struct state_list$/;"	s
+state_node	include/state_manage.h	/^struct state_node$/;"	s
+status	driver/camera.c	/^	int	status;$/;"	m	struct:pxa_camera	file:
+status	include/miso_camera.h	/^	int status;$/;"	m	struct:pxa_camera
+status	include/videodev2.h	/^	__u32	     status;$/;"	m	struct:v4l2_input
+std	include/videodev2.h	/^	v4l2_std_id  std;$/;"	m	struct:v4l2_input
+std	include/videodev2.h	/^	v4l2_std_id  std;$/;"	m	struct:v4l2_output
+step	include/videodev2.h	/^	__s32		     step;$/;"	m	struct:v4l2_queryctrl
+step	include/videodev2.h	/^	struct v4l2_fract	step;		\/* Frame interval step size [s] *\/$/;"	m	struct:v4l2_frmival_stepwise	typeref:struct:v4l2_frmival_stepwise::v4l2_fract
+step_height	include/videodev2.h	/^	__u32			step_height;	\/* Frame height step size [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+step_width	include/videodev2.h	/^	__u32			step_width;	\/* Frame width step size [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+stepwise	include/videodev2.h	/^		struct v4l2_frmival_stepwise	stepwise;$/;"	m	union:v4l2_frmivalenum::__anon7	typeref:struct:v4l2_frmivalenum::__anon7::v4l2_frmival_stepwise
+stepwise	include/videodev2.h	/^		struct v4l2_frmsize_stepwise	stepwise;$/;"	m	union:v4l2_frmsizeenum::__anon6	typeref:struct:v4l2_frmsizeenum::__anon6::v4l2_frmsize_stepwise
+stop	include/car_lib.h	/^void stop(void)$/;"	f
+sudden_stop	include/car_lib.h	/^char sudden_stop(char* sud)$/;"	f
+sum	include/pxa_camera_zl.h	/^	unsigned int sum;$/;"	m	struct:hst_context_s
+tail	include/state_manage.h	/^	struct state_node* tail;$/;"	m	struct:state_list	typeref:struct:state_list::state_node
+target	include/videodev2.h	/^	__u32			target;  \/* use this one for CBR *\/$/;"	m	struct:v4l2_bitrate
+thread	main.c	/^pthread_t thread[3];	\/\/ 0:key handling , 1:sensor handling, 2:distance_check$/;"	v
+timecode	include/videodev2.h	/^	struct v4l2_timecode	timecode;$/;"	m	struct:v4l2_buffer	typeref:struct:v4l2_buffer::v4l2_timecode
+timeperframe	include/videodev2.h	/^	struct v4l2_fract  timeperframe;  \/*  Time per frame in .1us units *\/$/;"	m	struct:v4l2_captureparm	typeref:struct:v4l2_captureparm::v4l2_fract
+timeperframe	include/videodev2.h	/^	struct v4l2_fract  timeperframe; \/*  Time per frame in seconds *\/$/;"	m	struct:v4l2_outputparm	typeref:struct:v4l2_outputparm::v4l2_fract
+timestamp	include/videodev2.h	/^	struct timeval		timestamp;$/;"	m	struct:v4l2_buffer	typeref:struct:v4l2_buffer::timeval
+top	include/videodev2.h	/^	__s32   top;$/;"	m	struct:v4l2_rect
+total_distance	include/car_lib.h	/^char total_distance(void)$/;"	f
+ts_pid_audio	include/videodev2.h	/^	__u16				ts_pid_audio;$/;"	m	struct:v4l2_mpeg_compression
+ts_pid_pcr	include/videodev2.h	/^	__u16				ts_pid_pcr;$/;"	m	struct:v4l2_mpeg_compression
+ts_pid_pmt	include/videodev2.h	/^	__u16				ts_pid_pmt;$/;"	m	struct:v4l2_mpeg_compression
+ts_pid_video	include/videodev2.h	/^	__u16				ts_pid_video;$/;"	m	struct:v4l2_mpeg_compression
+tuner	include/videodev2.h	/^	__u32		      tuner;$/;"	m	struct:v4l2_frequency
+tuner	include/videodev2.h	/^	__u32        tuner;             \/*  Associated tuner *\/$/;"	m	struct:v4l2_input
+turn_left	include/miso_car_lib.h	/^void turn_left(int v)$/;"	f
+turn_right	include/miso_car_lib.h	/^void turn_right(int v)$/;"	f
+turn_set	include/miso_car_lib.h	/^void turn_set(int v)$/;"	f
+turn_straight	include/miso_car_lib.h	/^void turn_straight()$/;"	f
+txsubchans	include/videodev2.h	/^	__u32			txsubchans;$/;"	m	struct:v4l2_modulator
+type	include/state_manage.h	/^	char type;$/;"	m	struct:car_state
+type	include/videodev2.h	/^	__u32			type;		\/* Frame interval type the device supports. *\/$/;"	m	struct:v4l2_frmivalenum
+type	include/videodev2.h	/^	__u32			type;		\/* Frame size type the device supports. *\/$/;"	m	struct:v4l2_frmsizeenum
+type	include/videodev2.h	/^	__u32	     type;		\/*  Type of input *\/$/;"	m	struct:v4l2_input
+type	include/videodev2.h	/^	__u32	     type;		\/*  Type of output *\/$/;"	m	struct:v4l2_output
+type	include/videodev2.h	/^	__u32	type;$/;"	m	struct:v4l2_timecode
+type	include/videodev2.h	/^	enum v4l2_buf_type      type;$/;"	m	struct:v4l2_buffer	typeref:enum:v4l2_buffer::v4l2_buf_type
+type	include/videodev2.h	/^	enum v4l2_buf_type      type;$/;"	m	struct:v4l2_crop	typeref:enum:v4l2_crop::v4l2_buf_type
+type	include/videodev2.h	/^	enum v4l2_buf_type      type;$/;"	m	struct:v4l2_cropcap	typeref:enum:v4l2_cropcap::v4l2_buf_type
+type	include/videodev2.h	/^	enum v4l2_buf_type      type;$/;"	m	struct:v4l2_requestbuffers	typeref:enum:v4l2_requestbuffers::v4l2_buf_type
+type	include/videodev2.h	/^	enum v4l2_buf_type  type;              \/* buffer type        *\/$/;"	m	struct:v4l2_fmtdesc	typeref:enum:v4l2_fmtdesc::v4l2_buf_type
+type	include/videodev2.h	/^	enum v4l2_buf_type type;$/;"	m	struct:v4l2_format	typeref:enum:v4l2_format::v4l2_buf_type
+type	include/videodev2.h	/^	enum v4l2_buf_type type;$/;"	m	struct:v4l2_sliced_vbi_cap	typeref:enum:v4l2_sliced_vbi_cap::v4l2_buf_type
+type	include/videodev2.h	/^	enum v4l2_buf_type type;$/;"	m	struct:v4l2_streamparm	typeref:enum:v4l2_streamparm::v4l2_buf_type
+type	include/videodev2.h	/^	enum v4l2_ctrl_type  type;$/;"	m	struct:v4l2_queryctrl	typeref:enum:v4l2_queryctrl::v4l2_ctrl_type
+type	include/videodev2.h	/^	enum v4l2_tuner_type    type;$/;"	m	struct:v4l2_tuner	typeref:enum:v4l2_tuner::v4l2_tuner_type
+type	include/videodev2.h	/^	enum v4l2_tuner_type  type;$/;"	m	struct:v4l2_frequency	typeref:enum:v4l2_frequency::v4l2_tuner_type
+uart_fd	include/car_lib.h	/^int uart_fd;$/;"	v
+userbits	include/videodev2.h	/^	__u8	userbits[4];$/;"	m	struct:v4l2_timecode
+userptr	include/videodev2.h	/^		unsigned long   userptr;$/;"	m	union:v4l2_buffer::__anon8
+uwait	include/car_lib.h	/^void uwait(int us)$/;"	f
+v4l2_audio	include/videodev2.h	/^struct v4l2_audio$/;"	s
+v4l2_audioout	include/videodev2.h	/^struct v4l2_audioout$/;"	s
+v4l2_bitrate	include/videodev2.h	/^struct v4l2_bitrate {$/;"	s
+v4l2_bitrate_mode	include/videodev2.h	/^enum v4l2_bitrate_mode {$/;"	g
+v4l2_buf_type	include/videodev2.h	/^enum v4l2_buf_type {$/;"	g
+v4l2_buffer	include/videodev2.h	/^struct v4l2_buffer$/;"	s
+v4l2_capability	include/videodev2.h	/^struct v4l2_capability$/;"	s
+v4l2_captureparm	include/videodev2.h	/^struct v4l2_captureparm$/;"	s
+v4l2_clip	include/videodev2.h	/^struct v4l2_clip$/;"	s
+v4l2_colorspace	include/videodev2.h	/^enum v4l2_colorspace {$/;"	g
+v4l2_control	include/videodev2.h	/^struct v4l2_control$/;"	s
+v4l2_crop	include/videodev2.h	/^struct v4l2_crop {$/;"	s
+v4l2_cropcap	include/videodev2.h	/^struct v4l2_cropcap {$/;"	s
+v4l2_ctrl_type	include/videodev2.h	/^enum v4l2_ctrl_type {$/;"	g
+v4l2_enc_idx	include/videodev2.h	/^struct v4l2_enc_idx {$/;"	s
+v4l2_enc_idx_entry	include/videodev2.h	/^struct v4l2_enc_idx_entry {$/;"	s
+v4l2_encoder_cmd	include/videodev2.h	/^struct v4l2_encoder_cmd {$/;"	s
+v4l2_ext_control	include/videodev2.h	/^struct v4l2_ext_control$/;"	s
+v4l2_ext_controls	include/videodev2.h	/^struct v4l2_ext_controls$/;"	s
+v4l2_field	include/videodev2.h	/^enum v4l2_field {$/;"	g
+v4l2_fmtdesc	include/videodev2.h	/^struct v4l2_fmtdesc$/;"	s
+v4l2_format	include/videodev2.h	/^struct v4l2_format$/;"	s
+v4l2_fourcc	include/videodev2.h	92;"	d
+v4l2_fract	include/videodev2.h	/^struct v4l2_fract {$/;"	s
+v4l2_framebuffer	include/videodev2.h	/^struct v4l2_framebuffer$/;"	s
+v4l2_frequency	include/videodev2.h	/^struct v4l2_frequency$/;"	s
+v4l2_frmival_stepwise	include/videodev2.h	/^struct v4l2_frmival_stepwise$/;"	s
+v4l2_frmivalenum	include/videodev2.h	/^struct v4l2_frmivalenum$/;"	s
+v4l2_frmivaltypes	include/videodev2.h	/^enum v4l2_frmivaltypes$/;"	g
+v4l2_frmsize_discrete	include/videodev2.h	/^struct v4l2_frmsize_discrete$/;"	s
+v4l2_frmsize_stepwise	include/videodev2.h	/^struct v4l2_frmsize_stepwise$/;"	s
+v4l2_frmsizeenum	include/videodev2.h	/^struct v4l2_frmsizeenum$/;"	s
+v4l2_frmsizetypes	include/videodev2.h	/^enum v4l2_frmsizetypes$/;"	g
+v4l2_input	include/videodev2.h	/^struct v4l2_input$/;"	s
+v4l2_jpegcompression	include/videodev2.h	/^struct v4l2_jpegcompression$/;"	s
+v4l2_memory	include/videodev2.h	/^enum v4l2_memory {$/;"	g
+v4l2_modulator	include/videodev2.h	/^struct v4l2_modulator$/;"	s
+v4l2_mpeg_aspectratio	include/videodev2.h	/^enum v4l2_mpeg_aspectratio {$/;"	g
+v4l2_mpeg_audio_crc	include/videodev2.h	/^enum v4l2_mpeg_audio_crc {$/;"	g
+v4l2_mpeg_audio_emphasis	include/videodev2.h	/^enum v4l2_mpeg_audio_emphasis {$/;"	g
+v4l2_mpeg_audio_encoding	include/videodev2.h	/^enum v4l2_mpeg_audio_encoding {$/;"	g
+v4l2_mpeg_audio_l1_bitrate	include/videodev2.h	/^enum v4l2_mpeg_audio_l1_bitrate {$/;"	g
+v4l2_mpeg_audio_l2_bitrate	include/videodev2.h	/^enum v4l2_mpeg_audio_l2_bitrate {$/;"	g
+v4l2_mpeg_audio_l3_bitrate	include/videodev2.h	/^enum v4l2_mpeg_audio_l3_bitrate {$/;"	g
+v4l2_mpeg_audio_mode	include/videodev2.h	/^enum v4l2_mpeg_audio_mode {$/;"	g
+v4l2_mpeg_audio_mode_extension	include/videodev2.h	/^enum v4l2_mpeg_audio_mode_extension {$/;"	g
+v4l2_mpeg_audio_sampling_freq	include/videodev2.h	/^enum v4l2_mpeg_audio_sampling_freq {$/;"	g
+v4l2_mpeg_audiotype	include/videodev2.h	/^enum v4l2_mpeg_audiotype {$/;"	g
+v4l2_mpeg_compression	include/videodev2.h	/^struct v4l2_mpeg_compression {$/;"	s
+v4l2_mpeg_cx2341x_video_chroma_spatial_filter_type	include/videodev2.h	/^enum v4l2_mpeg_cx2341x_video_chroma_spatial_filter_type {$/;"	g
+v4l2_mpeg_cx2341x_video_luma_spatial_filter_type	include/videodev2.h	/^enum v4l2_mpeg_cx2341x_video_luma_spatial_filter_type {$/;"	g
+v4l2_mpeg_cx2341x_video_median_filter_type	include/videodev2.h	/^enum v4l2_mpeg_cx2341x_video_median_filter_type {$/;"	g
+v4l2_mpeg_cx2341x_video_spatial_filter_mode	include/videodev2.h	/^enum v4l2_mpeg_cx2341x_video_spatial_filter_mode {$/;"	g
+v4l2_mpeg_cx2341x_video_temporal_filter_mode	include/videodev2.h	/^enum v4l2_mpeg_cx2341x_video_temporal_filter_mode {$/;"	g
+v4l2_mpeg_stream_type	include/videodev2.h	/^enum v4l2_mpeg_stream_type {$/;"	g
+v4l2_mpeg_stream_vbi_fmt	include/videodev2.h	/^enum v4l2_mpeg_stream_vbi_fmt {$/;"	g
+v4l2_mpeg_streamtype	include/videodev2.h	/^enum v4l2_mpeg_streamtype {$/;"	g
+v4l2_mpeg_video_aspect	include/videodev2.h	/^enum v4l2_mpeg_video_aspect {$/;"	g
+v4l2_mpeg_video_bitrate_mode	include/videodev2.h	/^enum v4l2_mpeg_video_bitrate_mode {$/;"	g
+v4l2_mpeg_video_encoding	include/videodev2.h	/^enum v4l2_mpeg_video_encoding {$/;"	g
+v4l2_mpeg_videotype	include/videodev2.h	/^enum v4l2_mpeg_videotype {$/;"	g
+v4l2_output	include/videodev2.h	/^struct v4l2_output$/;"	s
+v4l2_outputparm	include/videodev2.h	/^struct v4l2_outputparm$/;"	s
+v4l2_pix_format	include/videodev2.h	/^struct v4l2_pix_format$/;"	s
+v4l2_priority	include/videodev2.h	/^enum v4l2_priority {$/;"	g
+v4l2_queryctrl	include/videodev2.h	/^struct v4l2_queryctrl$/;"	s
+v4l2_querymenu	include/videodev2.h	/^struct v4l2_querymenu$/;"	s
+v4l2_rect	include/videodev2.h	/^struct v4l2_rect {$/;"	s
+v4l2_register	include/videodev2.h	/^struct v4l2_register {$/;"	s
+v4l2_requestbuffers	include/videodev2.h	/^struct v4l2_requestbuffers$/;"	s
+v4l2_sliced_vbi_cap	include/videodev2.h	/^struct v4l2_sliced_vbi_cap$/;"	s
+v4l2_sliced_vbi_data	include/videodev2.h	/^struct v4l2_sliced_vbi_data$/;"	s
+v4l2_sliced_vbi_format	include/videodev2.h	/^struct v4l2_sliced_vbi_format$/;"	s
+v4l2_standard	include/videodev2.h	/^struct v4l2_standard$/;"	s
+v4l2_std_id	include/videodev2.h	/^typedef __u64 v4l2_std_id;$/;"	t
+v4l2_streamparm	include/videodev2.h	/^struct v4l2_streamparm$/;"	s
+v4l2_timecode	include/videodev2.h	/^struct v4l2_timecode$/;"	s
+v4l2_tuner	include/videodev2.h	/^struct v4l2_tuner$/;"	s
+v4l2_tuner_type	include/videodev2.h	/^enum v4l2_tuner_type {$/;"	g
+v4l2_vbi_format	include/videodev2.h	/^struct v4l2_vbi_format$/;"	s
+v4l2_window	include/videodev2.h	/^struct v4l2_window$/;"	s
+v4l2buf	driver/camera.c	/^	struct v4l2_buffer	v4l2buf;$/;"	m	struct:ext_video_buf	typeref:struct:ext_video_buf::v4l2_buffer	file:
+val	include/videodev2.h	/^	__u64 val;$/;"	m	struct:v4l2_register
+val1	include/pxa_camera_zl.h	/^    int  val1;$/;"	m	struct:reg_set_s
+val2	include/pxa_camera_zl.h	/^    int  val2;$/;"	m	struct:reg_set_s
+value	include/state_manage.h	/^	int value;$/;"	m	struct:car_state
+value	include/videodev2.h	/^		__s32 value;$/;"	m	union:v4l2_ext_control::__anon9
+value	include/videodev2.h	/^	__s32		     value;$/;"	m	struct:v4l2_control
+value64	include/videodev2.h	/^		__s64 value64;$/;"	m	union:v4l2_ext_control::__anon9
+vbi	include/videodev2.h	/^		struct v4l2_vbi_format		vbi;     \/\/ V4L2_BUF_TYPE_VBI_CAPTURE$/;"	m	union:v4l2_format::__anon12	typeref:struct:v4l2_format::__anon12::v4l2_vbi_format
+version	include/videodev2.h	/^	__u32   version;        \/* should use KERNEL_VERSION() *\/$/;"	m	struct:v4l2_capability
+vi_aspect_ratio	include/videodev2.h	/^	enum v4l2_mpeg_aspectratio	vi_aspect_ratio;$/;"	m	struct:v4l2_mpeg_compression	typeref:enum:v4l2_mpeg_compression::v4l2_mpeg_aspectratio
+vi_bframes_count	include/videodev2.h	/^	__u16				vi_bframes_count;$/;"	m	struct:v4l2_mpeg_compression
+vi_bitrate	include/videodev2.h	/^	struct v4l2_bitrate		vi_bitrate;$/;"	m	struct:v4l2_mpeg_compression	typeref:struct:v4l2_mpeg_compression::v4l2_bitrate
+vi_frame_rate	include/videodev2.h	/^	__u32				vi_frame_rate;$/;"	m	struct:v4l2_mpeg_compression
+vi_frames_per_gop	include/videodev2.h	/^	__u16				vi_frames_per_gop;$/;"	m	struct:v4l2_mpeg_compression
+vi_pesid	include/videodev2.h	/^	__u8                            vi_pesid;$/;"	m	struct:v4l2_mpeg_compression
+vi_type	include/videodev2.h	/^	enum v4l2_mpeg_videotype	vi_type;$/;"	m	struct:v4l2_mpeg_compression	typeref:enum:v4l2_mpeg_compression::v4l2_mpeg_videotype
+vidbuf	driver/overlay2.c	/^	struct	pxa_video_buf vidbuf;$/;"	m	struct:overlay2_object	typeref:struct:overlay2_object::pxa_video_buf	file:
+vidbuf	include/miso_camera.h	/^struct pxa_video_buf* vidbuf;$/;"	v	typeref:struct:pxa_video_buf
+videobuf_dev	driver/camera.c	/^struct videobuf_dev{$/;"	s	file:
+w	include/videodev2.h	/^	struct v4l2_rect        w;$/;"	m	struct:v4l2_window	typeref:struct:v4l2_window::v4l2_rect
+wait	include/car_lib.h	/^void wait(int se)$/;"	f
+width	driver/camera.c	/^	int	width;$/;"	m	struct:pxa_camera	file:
+width	include/miso_camera.h	/^	int width;$/;"	m	struct:pxa_camera
+width	include/pxa_lib.h	/^	int	width;$/;"	m	struct:pxacam_setting
+width	include/pxa_lib.h	/^	int width,height;$/;"	m	struct:pxa_rect
+width	include/pxa_lib.h	/^	int width,height;$/;"	m	struct:pxa_video_buf
+width	include/videodev2.h	/^	__s32   width;$/;"	m	struct:v4l2_rect
+width	include/videodev2.h	/^	__u32			width;		\/* Frame width *\/$/;"	m	struct:v4l2_frmivalenum
+width	include/videodev2.h	/^	__u32			width;		\/* Frame width [pixel] *\/$/;"	m	struct:v4l2_frmsize_discrete
+width	include/videodev2.h	/^	__u32         		width;$/;"	m	struct:v4l2_pix_format
+width_scan_point	include/cam_values.h	/^int width_scan_point = MIDWIDTH;$/;"	v
+win	include/videodev2.h	/^		struct v4l2_window		win;     \/\/ V4L2_BUF_TYPE_VIDEO_OVERLAY$/;"	m	union:v4l2_format::__anon12	typeref:struct:v4l2_format::__anon12::v4l2_window
+window	driver/overlay2.c	/^	struct	pxa_rect window;$/;"	m	struct:overlay2_object	typeref:struct:overlay2_object::pxa_rect	file:
+winker_light	include/car_lib.h	/^void winker_light(char* status)$/;"	f
+write_buf	include/car_lib.h	/^unsigned char write_buf[3];$/;"	v
+writebuffers	include/videodev2.h	/^	__u32              writebuffers; \/*  # of buffers for write *\/$/;"	m	struct:v4l2_outputparm
+x	include/cam_values.h	/^	int x;		\/\/ x좌표 (0~319)$/;"	m	struct:p_point
+x	include/pxa_lib.h	/^	int x,y;$/;"	m	struct:pxa_rect
+y	include/cam_values.h	/^	int y;		\/\/ y좌표 (0~239)$/;"	m	struct:p_point
+y	include/pxa_lib.h	/^			unsigned char *y,*cb,*cr;$/;"	m	struct:pxa_video_buf::__anon3::__anon5
+y	include/pxa_lib.h	/^	int x,y;$/;"	m	struct:pxa_rect
+ycbcr	include/pxa_lib.h	/^		}ycbcr;$/;"	m	union:pxa_video_buf::__anon3	typeref:struct:pxa_video_buf::__anon3::__anon5
+ystep	include/pxa_lib.h	/^			unsigned int ystep,cbstep,crstep;$/;"	m	struct:pxa_video_buf::__anon3::__anon5
